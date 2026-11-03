@@ -1,0 +1,28 @@
+# Experiment data and generated reports
+results/
+output/
+
+# Downloaded archives (e.g. a zip of this repository)
+*.zip
+
+# MATLAB
+*.asv
+*.autosave
+*.m~
+slprj/
+
+# LaTeX intermediates
+*.aux
+*.log
+*.out
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Local research captures (do not automatically stage datasets)
+sergi_pniq_dpd/measurements/*.mat
+
+# Local real-time inference measurements
+experimentosSergi20261023/

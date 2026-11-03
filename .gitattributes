@@ -1,0 +1,3 @@
+# Store every file byte for byte: line endings differ between files
+# (CRLF or LF, see AGENTS.md) and must not be converted by core.autocrlf
+* -text
