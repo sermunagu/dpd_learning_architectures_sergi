@@ -1,0 +1,41 @@
+             activationMaxAbs: 5.5321e-08
+    originalReadoutRelativeL2: 4.1873e-08
+               solutionMaxAbs: 3.3307e-16
+     updatedReadoutRelativeL2: 6.3930e-08
+       phaseRestorationMaxAbs: 7.3151e-09
+    knownPredictionRelativeL2: 5.6768e-08
+                         rank: [2×1 double]
+        coefficientCastMaxAbs: [2×1 double]
+           hiddenWeightsExact: 1
+                   masksExact: 1
+       hiddenActivationsExact: 1
+    weightsCancelAnalytically: 1
+
+SYNTHETIC READOUT CHECKS PASS.
+                 source: [1×1 struct]
+                weights: [1.4178 0.5822]
+                  alpha: 0.5000
+                 matlab: '26.1.0.3203278 (R2026a)'
+               computer: 'PCWIN64'
+                threads: 20
+         inputPrecision: 'double'
+    activationPrecision: 'single'
+        targetPrecision: 'double'
+               rankRule: 'max(size(A))*eps(sigma_max(A))'
+        manualTolerance: 1.0000e-06
+      developmentGainDb: 0.1000
+    maximumQIncreasePct: 10
+           protocolFile: 'C:\Sergi\Investigacion\Códigos\dpd_learning_architectures_sergi\sergi_pniq_dpd\diagnostics\pnnn_readout_ls\PROTOCOL.md'
+             preparedOn: '04-Nov-2026 10:52:45'
+
+                     synthetic: [1×1 struct]
+    manualNormalizedRelativeL2: 1.2587e-07
+       manualComplexRelativeL2: 6.5050e-08
+          savedPredictionExact: 1
+                    masksExact: 1
+            normalizationExact: 1
+          captureCenteredExact: 1
+                      rngExact: 1
+
+PREFLIGHT COMPLETE. No real fit performed.
+C:\Sergi\Investigacion\Códigos\dpd_learning_architectures_sergi\sergi_pniq_dpd\diagnostics\pnnn_readout_ls\tp927d59fa_d1a5_4040_a786_7820557ca62f

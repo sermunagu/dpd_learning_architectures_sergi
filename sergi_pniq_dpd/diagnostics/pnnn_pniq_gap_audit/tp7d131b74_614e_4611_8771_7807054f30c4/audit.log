@@ -1,0 +1,82 @@
+Synthetic metrics, periodic lag convention and Parseval PASS.
+Recomputed dense NMSE -35.572399266724; mixed -35.560476784113
+Manual double forward relative L2 8.34320580495333e-08
+Readout output 1 columns 12 condition 166.937142 max cosine 0.027323517 gradient norm 0.00111703619
+Readout output 2 columns 13 condition 180.505823 max cosine 0.0240108499 gradient norm 0.000545497875
+Frozen neural and PN-IQ predictions exactly match saved references.
+PN-IQ identification normal-equation maximum cosine I/Q 8.30571328579e-10 2.84066134256e-09
+PN-IQ peak-scaled basis condition 134085598.247 min singular 1.57154334927e-06
+          Model           TargetRealParameters    ActualRealParameters    SelectedLambda    InternalValidationNMSEdB    IdentificationNMSEdB    FullSignalNMSEdB    FLOPsPerSample    ActiveWeights    ActiveBiases    WeightSparsityPercent    FineTuneEpochs    MaxAbsRealParameter    EvaluationNMSEdB
+    __________________    ____________________    ____________________    ______________    ________________________    ____________________    ________________    ______________    _____________    ____________    _____________________    ______________    ___________________    ________________
+
+    "Complex GMP-DOMP"            310                     310                    0                    NaN                     -38.552               -38.415              1657              310               0                   NaN                 NaN                 15925               -38.401     
+    "PN-IQ-GMP"                   310                     310                    0                    NaN                      -39.06               -38.875              1013              310               0                   NaN                 NaN                 13418               -38.855     
+    "PNNN"                        310                     310                  NaN                    NaN                     -35.112               -35.129               780              296              14                71.318                 164                2.1983               -35.131     
+
+    Neuron    ActiveInputWeights    ActiveOutputWeights    Saturation01    ActivationStd
+    ______    __________________    ___________________    ____________    _____________
+
+       1              16                     2              0.00019124        0.12127   
+       2              28                     2               0.0068481        0.14094   
+       3              27                     2               0.0057312        0.19198   
+       4              17                     2                       0        0.08386   
+       5              17                     2               0.0007548       0.093127   
+       6              26                     2                0.016644        0.16374   
+       7              24                     1                0.011936        0.11365   
+       8              30                     2                       0       0.086714   
+       9              23                     2               0.0027771        0.15515   
+      10              28                     2              5.0863e-05          0.162   
+      11              21                     2                       0         0.1047   
+      12              16                     2               0.0021118        0.18615   
+
+    Output    NeuronZeroMeansBias    MixedLossGradient    NormalEquationCosine
+    ______    ___________________    _________________    ____________________
+
+      1                1                -0.00051652             -0.016736     
+      1                2                -0.00014661             -0.010436     
+      1                3                -0.00043022             -0.016726     
+      1                4                -9.9752e-05             -0.012289     
+      1                5                -0.00036403             -0.012427     
+      1                6                -0.00018481             -0.011534     
+      1                8                -0.00026728             -0.025068     
+      1                9                 -0.0002873             -0.020817     
+      1               10                -0.00036825             -0.027324     
+      1               11                -0.00010869            -0.0067699     
+      1               12                -0.00014255            -0.0053431     
+      1                0                -0.00052541              -0.01336     
+      2                1                 0.00016716             0.0065765     
+      2                2                  0.0001304              0.011271     
+      2                3                 0.00017832             0.0084179     
+      2                4                -4.2627e-05            -0.0063766     
+      2                5                -8.9261e-05            -0.0036999     
+      2                6                -6.4981e-05            -0.0049243     
+      2                7                 8.8803e-05             0.0036183     
+      2                8                 7.2494e-05              0.008256     
+      2                9                  0.0002729              0.024011     
+      2               10                 0.00022065               0.01988     
+      2               11                -3.2666e-05            -0.0024705     
+      2               12                -0.00025854             -0.011767     
+      2                0                    5.1e-05             0.0015747     
+
+Cross-model centered complex residual correlation magnitude 0.634177689
+       Model                  Domain                  N          NMSE         MSEI          MSEQ          MSE           MAE          RMS        PAPR     RelativeL2       BiasI         BiasQ       AmplitudeRMSE    AmplitudeBias    AngularRMSEDeg
+    ____________    __________________________    __________    _______    __________    __________    __________    __________    ________    ______    __________    ___________    __________    _____________    _____________    ______________
+
+    "Mixed PNNN"    "Identification"                   49151    -35.528    1.2123e-07    4.3687e-08    1.6492e-07    0.00028088    0.024256    13.913     0.016734     -4.6517e-06    3.2915e-07     0.00034978       -6.4695e-06        0.48703    
+    "Mixed PNNN"    "Development"                 4.4237e+05    -35.564    1.2042e-07    4.3412e-08    1.6384e-07    0.00028367    0.024283    13.839     0.016665     -5.4853e-07    8.1252e-07     0.00034846       -2.7343e-06        0.48519    
+    "Mixed PNNN"    "Full development capture"    4.9152e+05     -35.56     1.205e-07     4.344e-08    1.6394e-07    0.00028339    0.024281    13.904     0.016672     -9.5884e-07    7.6419e-07     0.00034859       -3.1078e-06        0.48538    
+    "PN-IQ-GMP"     "Identification"                   49151     -39.06    5.1236e-08    2.1885e-08    7.3121e-08    0.00017836    0.024266    14.635     0.011143      1.3761e-07     2.135e-07     0.00023187        -1.866e-07        0.32847    
+    "PN-IQ-GMP"     "Development"                 4.4237e+05    -38.855    5.4447e-08    2.2336e-08    7.6784e-08    0.00018144    0.024289    14.809     0.011408      2.9911e-06    2.9051e-08        0.00024        2.6889e-06        0.32694    
+    "PN-IQ-GMP"     "Full development capture"    4.9152e+05    -38.875    5.4126e-08    2.2291e-08    7.6417e-08    0.00018113    0.024287    14.809     0.011382      2.7057e-06    4.7496e-08      0.0002392        2.4014e-06         0.3271    
+
+       Model        Band    ErrorPower     Share 
+    ____________    ____    __________    _______
+
+    "Mixed PNNN"     1      7.6166e-08    0.46459
+    "Mixed PNNN"     2      4.0238e-08    0.24544
+    "Mixed PNNN"     3      4.7539e-08    0.28997
+    "PN-IQ-GMP"      1      3.9284e-08    0.51407
+    "PN-IQ-GMP"      2      1.9575e-08    0.25616
+    "PN-IQ-GMP"      3      1.7559e-08    0.22977
+
+AUDIT COMPLETE: C:\Sergi\Investigacion\Códigos\dpd_learning_architectures_sergi\sergi_pniq_dpd\diagnostics\pnnn_pniq_gap_audit\tp7d131b74_614e_4611_8771_7807054f30c4

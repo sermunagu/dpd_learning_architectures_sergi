@@ -1,0 +1,5 @@
+Layer,Parameter,Active,Changed,ChangeL2,MaxAbsChange
+fc1,Weights,273,273,0.362229575943355,0.0915504619479179
+fc1,Bias,12,12,0.217772569371074,0.110440254211426
+fcOut,Weights,23,0,0,0
+fcOut,Bias,2,0,0,0

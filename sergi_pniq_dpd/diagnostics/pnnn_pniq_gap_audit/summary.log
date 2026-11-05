@@ -1,0 +1,14 @@
+Synthetic fixed-readout derivative max error 4.78370121293e-12
+Saved dense source fields: denseFit, bestDenseEpoch, fineTuneEpochs, runtimeConfig
+Saved dense fit fields: network, normalization
+Saved sparse model fields: kind, network, normalization, masks, featureConfig, counts
+Canonical selected columns 152; cross-lag 100; future envelope 11; envelope lag range [-2,11]; degree range [1,10]
+amplitude PN-IQ advantage dB range 2.415838218 to 8.461429341; first 8.461429341 last 2.415838218
+correction_regions PN-IQ advantage dB range 2.452869051 to 7.139997115; first 7.139997115 last 2.452869051
+temporal PN-IQ advantage dB range 3.166012610 to 3.569711071; first 3.246247349 last 3.358302613
+Spectral error power advantage dB: 2.875481363 3.129389215 4.325558851 
+Residual autocorrelation magnitudes at lag 1: 0.462917303 0.539958242; lag 5: 0.024725368 0.033853591
+Full I and Q shares of MSE advantage: 0.758373628 0.241626372
+CHECKCODE auditGap.m
+CHECKCODE finishAudit.m
+CHECKCODE inspectModels.m

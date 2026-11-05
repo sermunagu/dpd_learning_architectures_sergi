@@ -1,0 +1,41 @@
+diff --git a/sergi_pniq_dpd/toolbox/pnnn/pruneAndFineTunePNNN.m b/sergi_pniq_dpd/diagnostics/pnnn_loss_experiment/lossPrunePNNN.m
+index 199a23f..1414d16 100644
+--- a/sergi_pniq_dpd/toolbox/pnnn/pruneAndFineTunePNNN.m
++++ b/sergi_pniq_dpd/diagnostics/pnnn_loss_experiment/lossPrunePNNN.m
+@@ -1,4 +1,4 @@
+-function result = pruneAndFineTunePNNN(denseFit, features, neuralTargets, options)
++function result = lossPrunePNNN(denseFit, features, neuralTargets, options)
+ % pruneAndFineTunePNNN - Prune one dense PNNN and fine-tune a fixed mask.
+ % Mode = "select-epochs" returns the best validation epoch.
+ % Mode = "fixed-epochs" runs the requested duration on all supplied training rows.
+@@ -12,6 +12,9 @@ end
+ trainingRows = options.TrainingRows;
+ targetActiveParameters = double(options.TargetActiveParameters);
+ config = options.Config;
++assert(mode == "fixed-epochs", 'Fixed epochs only in this experiment.');
++config.pruning.lossWeights = options.LossWeights;
++assert(~config.pruning.useAcceleration, 'Acceleration is disabled.');
+ if mode == "select-epochs"
+     validationRows = options.ValidationRows;
+ else
+@@ -137,7 +140,7 @@ for epoch = 1:config.pruning.fineTuneEpochs
+         dlX = dlarray(featuresTraining(batch, :).', "CB");
+         dlT = dlarray(targetsTraining(batch, :).', "CB");
+         iteration = iteration + 1;
+-        [loss, gradients] = dlfeval(lossFunction, network, dlX, dlT);
++        [loss, gradients] = dlfeval(lossFunction, network, dlX, dlT, config.pruning.lossWeights);
+         gradients = applyGradientMasks(gradients, masks);
+         learnRate = config.pruning.fineTuneInitialLearnRate * ...
+             config.training.learnRateDropFactor ^ ...
+@@ -182,9 +185,9 @@ end
+ bestNetwork = applyLearnableMasks(bestNetwork, masks);
+ end
+ 
+-function [loss, gradients] = modelLoss(network, dlX, dlT)
++function [loss, gradients] = modelLoss(network, dlX, dlT, weights)
+ dlY = forward(network, dlX);
+-loss = mean((dlY - dlT).^2, "all");
++loss = weightedLoss(dlY, dlT, weights);
+ gradients = dlgradient(loss, network.Learnables);
+ end
+ 

@@ -1,0 +1,29 @@
+    Output      N      Columns    Rank    RankTolerance    RawCondition    ColumnScaledCondition    OldNormalizedMSE    DoubleNormalizedMSE    CastNormalizedMSE    OldMaxCosine    DoubleMaxCosine    CastMaxCosine    OldRelativeNE    DoubleRelativeNE    CastRelativeNE    OldGradientNorm    DoubleGradientNorm    CastGradientNorm    CoefficientCastMaxAbs    CoefficientCastRelativeL2    PredictionCastRelativeL2    SolveSeconds
+    ______    _____    _______    ____    _____________    ____________    _____________________    ________________    ___________________    _________________    ____________    _______________    _____________    _____________    ________________    ______________    _______________    __________________    ________________    _____________________    _________________________    ________________________    ____________
+
+      1       49151      12        12      2.7939e-09         126.58              166.94               0.00076939           0.00076568            0.00076568          0.027324        6.7058e-14        9.4983e-07       0.00040021          1.528e-15         2.5498e-08          0.001117           4.2647e-15            7.117e-08            5.8188e-08                 2.2219e-08                   2.6759e-08             0.070862  
+      2       49151      13        13      2.7939e-09         137.62              180.51                 0.003094            0.0030703             0.0030703          0.024011        4.0098e-13        6.5562e-07       0.00044412         2.1702e-14         3.4999e-08         0.0005455           2.6656e-14           4.2988e-08            5.5225e-08                 1.8548e-08                   3.6893e-08             0.010958  
+
+                               rngExact: 1
+                     hiddenWeightsExact: 1
+                 hiddenActivationsExact: 1
+                     normalizationExact: 1
+                             masksExact: 1
+                       activeParameters: 310
+                          prunedWeights: 736
+           actualVsCastManualRelativeL2: 1.2687e-07
+               identificationLossBefore: 0.0014
+                identificationLossAfter: 0.0014
+                     lossRoundingBudget: 1.7413e-08
+                componentRoundingBounds: [1.0408e-08 3.4469e-08]
+                       actualRelativeNE: [2×1 double]
+                        actualMaxCosine: [2×1 double]
+    coefficientCastPredictionRelativeL2: 1.4953e-08
+      actualVsIdealPredictionRelativeL2: 6.6256e-08
+          actualVsIdealPredictionMaxAbs: 1.4342e-08
+                          idealFullNMSE: -35.5773
+                           castFullNMSE: -35.5773
+                         actualFullNMSE: -35.5773
+
+ONE REAL READOUT FIT COMPLETE: 0.460405000 seconds
+sergi_pniq_dpd/diagnostics/pnnn_readout_ls/tp927d59fa_d1a5_4040_a786_7820557ca62f

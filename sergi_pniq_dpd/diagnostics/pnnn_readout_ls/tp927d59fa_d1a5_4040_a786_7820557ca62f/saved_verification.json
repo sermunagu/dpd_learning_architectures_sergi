@@ -1,0 +1,128 @@
+{
+  "savedPredictionExact": true,
+  "hiddenWeightsExact": true,
+  "masksExact": true,
+  "normalizationExact": true,
+  "rngExact": true,
+  "repeatFitGuard": true,
+  "repeatPreflightGuard": true,
+  "repeatAnalysisGuard": true,
+  "fitSeconds": 0.460405,
+  "preflight": {
+    "synthetic": {
+      "activationMaxAbs": 5.532141555963932E-8,
+      "originalReadoutRelativeL2": 4.1872919884933037E-8,
+      "solutionMaxAbs": 3.3306690738754696E-16,
+      "updatedReadoutRelativeL2": 6.3929672881304514E-8,
+      "phaseRestorationMaxAbs": 7.3150540601292761E-9,
+      "knownPredictionRelativeL2": 5.6767528740824205E-8,
+      "rank": [
+        4,
+        4
+      ],
+      "coefficientCastMaxAbs": [
+        1.3877787807814457E-16,
+        3.3306690738754696E-16
+      ],
+      "hiddenWeightsExact": true,
+      "masksExact": true,
+      "hiddenActivationsExact": true,
+      "weightsCancelAnalytically": true
+    },
+    "manualNormalizedRelativeL2": 1.2586764165769323E-7,
+    "manualComplexRelativeL2": 6.5049815671999936E-8,
+    "savedPredictionExact": true,
+    "masksExact": true,
+    "normalizationExact": true,
+    "captureCenteredExact": true,
+    "rngExact": true
+  },
+  "verification": {
+    "rngExact": true,
+    "hiddenWeightsExact": true,
+    "hiddenActivationsExact": true,
+    "normalizationExact": true,
+    "masksExact": true,
+    "activeParameters": 310,
+    "prunedWeights": 736,
+    "actualVsCastManualRelativeL2": 1.2686859892037088E-7,
+    "identificationLossBefore": 0.0014461413830168389,
+    "identificationLossAfter": 0.001436611115750754,
+    "lossRoundingBudget": 1.7412885593113971E-8,
+    "componentRoundingBounds": [
+      1.0408110813245868E-8,
+      3.4469423525308441E-8
+    ],
+    "actualRelativeNE": [
+      1.9329169237194204E-8,
+      3.4473211872451828E-8
+    ],
+    "actualMaxCosine": [
+      8.2234715022248039E-7,
+      6.4150058494132595E-7
+    ],
+    "coefficientCastPredictionRelativeL2": 1.4952730935595025E-8,
+    "actualVsIdealPredictionRelativeL2": 6.6256016893040733E-8,
+    "actualVsIdealPredictionMaxAbs": 1.4342012975312481E-8,
+    "idealFullNMSE": -35.577318614383742,
+    "castFullNMSE": -35.577318668560281,
+    "actualFullNMSE": -35.577318717399393
+  },
+  "decision": {
+    "developmentNMSEGainDb": 0.0160116083251296,
+    "developmentQChangePct": -0.53430240581151534,
+    "minimumGainDb": 0.1,
+    "maximumQIncreasePct": 10,
+    "pass": false
+  },
+  "comparisonChecks": {
+    "savedBaselineMetricsMatch": true,
+    "historicalAmplitudeBinsMatch": true,
+    "countsAndFLOPsUnchanged": true,
+    "fitAndAnalysisSeparated": true,
+    "csvBoundaryRoundtripMaxAbs": 4.85722573273506E-17
+  },
+  "provenance": {
+    "source": {
+      "inference": "C:\\Sergi\\Investigacion\\Códigos\\dpd_learning_architectures_sergi\\sergi_pniq_dpd\\diagnostics\\pnnn_mixed_loss\\tp390d053f_18ea_464b_8c05_db89f2b156eb\\tpc6c585a5_81aa_4b4a_8ac0_0ca4c0fbcf81\\inference.mat",
+      "experimental": "C:\\Sergi\\Investigacion\\Códigos\\dpd_learning_architectures_sergi\\sergi_pniq_dpd\\diagnostics\\pnnn_mixed_loss\\tp390d053f_18ea_464b_8c05_db89f2b156eb\\experimental.mat",
+      "protocol": "C:\\Sergi\\Investigacion\\Códigos\\dpd_learning_architectures_sergi\\sergi_pniq_dpd\\diagnostics\\pnnn_mixed_loss\\tp390d053f_18ea_464b_8c05_db89f2b156eb\\protocol.mat",
+      "folder": "C:\\Sergi\\Investigacion\\Códigos\\dpd_learning_architectures_sergi\\sergi_pniq_dpd\\results\\dpd_sweep\\tpf1484cb1_eb1d_4fe1_9d7e_13899ee8f7e5",
+      "experiment": "C:\\Sergi\\Investigacion\\Códigos\\dpd_learning_architectures_sergi\\sergi_pniq_dpd\\results\\dpd_sweep\\tpf1484cb1_eb1d_4fe1_9d7e_13899ee8f7e5\\experiment.mat",
+      "bundle": "C:\\Sergi\\Investigacion\\Códigos\\dpd_learning_architectures_sergi\\sergi_pniq_dpd\\results\\dpd_sweep\\tpf1484cb1_eb1d_4fe1_9d7e_13899ee8f7e5\\models_P0310.mat",
+      "dense": "C:\\Sergi\\Investigacion\\Códigos\\dpd_learning_architectures_sergi\\sergi_pniq_dpd\\results\\dpd_sweep\\tpf1484cb1_eb1d_4fe1_9d7e_13899ee8f7e5\\sweep_dense_source.mat",
+      "historical": "C:\\Sergi\\Investigacion\\Códigos\\dpd_learning_architectures_sergi\\sergi_pniq_dpd\\results\\dpd_sweep\\tpf1484cb1_eb1d_4fe1_9d7e_13899ee8f7e5\\pnnn_target_0310.mat",
+      "linear": "C:\\Sergi\\Investigacion\\Códigos\\dpd_learning_architectures_sergi\\sergi_pniq_dpd\\results\\dpd_sweep\\tpf1484cb1_eb1d_4fe1_9d7e_13899ee8f7e5\\linear_sweep.mat",
+      "capture": "C:\\Sergi\\Investigacion\\Códigos\\dpd_learning_architectures_sergi\\results\\experimentosSergi20261023\\experiment20261023T102742_xy.mat",
+      "oldMetrics": "C:\\Sergi\\Investigacion\\Códigos\\dpd_learning_architectures_sergi\\sergi_pniq_dpd\\diagnostics\\pnnn_mixed_loss\\tp390d053f_18ea_464b_8c05_db89f2b156eb\\tpc6c585a5_81aa_4b4a_8ac0_0ca4c0fbcf81\\metrics.csv",
+      "oldBins": "C:\\Sergi\\Investigacion\\Códigos\\dpd_learning_architectures_sergi\\sergi_pniq_dpd\\diagnostics\\pnnn_mixed_loss\\tp390d053f_18ea_464b_8c05_db89f2b156eb\\tpc6c585a5_81aa_4b4a_8ac0_0ca4c0fbcf81\\amplitude.csv"
+    },
+    "weights": [
+      1.4177580700411294,
+      0.5822419299588707
+    ],
+    "alpha": 0.5,
+    "matlab": "26.1.0.3203278 (R2026a)",
+    "computer": "PCWIN64",
+    "threads": 20,
+    "inputPrecision": "double",
+    "activationPrecision": "single",
+    "targetPrecision": "double",
+    "rankRule": "max(size(A))*eps(sigma_max(A))",
+    "manualTolerance": 1E-6,
+    "developmentGainDb": 0.1,
+    "maximumQIncreasePct": 10,
+    "protocolFile": "C:\\Sergi\\Investigacion\\Códigos\\dpd_learning_architectures_sergi\\sergi_pniq_dpd\\diagnostics\\pnnn_readout_ls\\PROTOCOL.md",
+    "preparedOn": "04-Nov-2026 10:52:45"
+  },
+  "singularExtremes": [
+    [
+      424.60206364348863,
+      3.3544618525286616
+    ],
+    [
+      455.81507158282665,
+      3.3122126268558469
+    ]
+  ]
+}

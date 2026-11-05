@@ -1,0 +1,11 @@
+CHECKCODE analyzeReadoutLS.m
+No messages.
+CHECKCODE checkReadoutCode.m
+No messages.
+CHECKCODE checkReadoutSynthetic.m
+No messages.
+CHECKCODE runReadoutLS.m
+Line 21: To improve performance, use 'isscalar' instead of length comparison.
+CHECKCODE solveMaskedReadoutLS.m
+Line 53: A Code Analyzer message was once suppressed here, but the message is no longer generated.
+Line 56: A Code Analyzer message was once suppressed here, but the message is no longer generated.

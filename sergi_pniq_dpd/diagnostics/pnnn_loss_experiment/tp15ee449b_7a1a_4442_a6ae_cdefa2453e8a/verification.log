@@ -1,0 +1,59 @@
+Learnable 1: single, mask active 273, actual nonzero 273, max weight change 0.136499285698
+Learnable 2: single, mask active 12, actual nonzero 12, max weight change 0.111482739449
+Learnable 3: single, mask active 23, actual nonzero 23, max weight change 0.153598070145
+Learnable 4: single, mask active 2, actual nonzero 2, max weight change 0.0361761450768
+      RMS       MeanPowerDbNative    PAPRDb    PeakMagnitude
+    ________    _________________    ______    _____________
+
+    0.024287         -32.293         14.748       0.13267   
+
+     sourceFolder: 'C:\Sergi\Investigacion\Códigos\dpd_learning_architectures_sergi\sergi_pniq_dpd\results\dpd_sweep\tpf1484cb1_eb1d_4fe1_9d7e_13899ee8f7e5'
+          capture: 'C:\Sergi\Investigacion\Códigos\dpd_learning_architectures_sergi\results\experiment20261023T102742_xy.mat'
+           matlab: '26.1.0.3203278 (R2026a)'
+         computer: 'PCWIN64'
+          threads: 20
+          options: [1×1 struct]
+          weights: [1.8355 0.1645]
+    normalization: [1×1 struct]
+            masks: {4×1 cell}
+     sourceConfig: [1×1 struct]
+          started: '04-Nov-2026 00:47:02'
+
+    training: [1×1 struct]
+     pruning: [1×1 struct]
+
+          miniBatchSize: 1024
+    learnRateDropFactor: 0.9500
+                verbose: 0
+
+       fineTuneInitialLearnRate: 2.0000e-04
+    fineTuneLearnRateDropPeriod: 41
+             fineTuneSeedOffset: 100000
+                useAcceleration: 0
+
+      totalWeightParams: 1032
+        totalBiasParams: 14
+     activeWeightParams: 296
+       activeBiasParams: 14
+    maxAbsRealParameter: 2.2787
+
+             kind: "pnnn"
+          network: [1×1 dlnetwork]
+    normalization: [1×1 struct]
+            masks: {4×1 cell}
+    featureConfig: [1×1 struct]
+           counts: [1×1 struct]
+
+          denseFit: [1×1 struct]
+    bestDenseEpoch: 1223
+    fineTuneEpochs: 164
+     runtimeConfig: [1×1 struct]
+
+Saved fit elapsed 111.531969700 seconds; 49151 rows, 164 epochs, 164 recorded permutations.
+Experimental RMS and PAPR are native-scale, pre-CFR; no hardware safety certification.
+CHECKCODE analyzeLossExperiment.m
+CHECKCODE lossPrunePNNN.m
+CHECKCODE runLossExperiment.m
+CHECKCODE verifySavedExperiment.m
+CHECKCODE weightedLoss.m
+SAVED RESULT VERIFICATION PASS. No training performed.

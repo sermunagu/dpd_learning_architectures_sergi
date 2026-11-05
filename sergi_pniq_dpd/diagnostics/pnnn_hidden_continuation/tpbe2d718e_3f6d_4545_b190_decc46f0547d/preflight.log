@@ -1,0 +1,5 @@
+CHECKCODE diagnoseHiddenGradient.m
+CHECKCODE hiddenLoss.m
+CHECKCODE runHiddenContinuation.m
+CHECKCODE testHiddenUpdates.m
+CHECKCODE trainHiddenNetwork.m

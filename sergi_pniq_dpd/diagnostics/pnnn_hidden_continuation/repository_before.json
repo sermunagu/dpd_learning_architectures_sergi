@@ -1,0 +1,15 @@
+{
+  "Date": "2026-11-04",
+  "Branch": "main",
+  "Head": "1600d268c38378ad0d4fb689e7ca64dcb438f418",
+  "InitialStatus": [
+    "?? sergi_pniq_dpd/diagnostics/pnnn_loss_experiment/",
+    "?? sergi_pniq_dpd/diagnostics/pnnn_loss_validation/",
+    "?? sergi_pniq_dpd/diagnostics/pnnn_mixed_loss/",
+    "?? sergi_pniq_dpd/diagnostics/pnnn_pniq_gap_audit/",
+    "?? sergi_pniq_dpd/diagnostics/pnnn_readout_ls/",
+    "?? sergi_pniq_dpd/diagnostics/pnnn_root_cause/"
+  ],
+  "ProtectedFiles": 645,
+  "PreviousManifestMatches": 612
+}

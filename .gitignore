@@ -26,3 +26,12 @@ sergi_pniq_dpd/measurements/*.mat
 
 # Local real-time inference measurements
 experimentosSergi20261023/
+
+# Private PNNN diagnostic artifacts (retain locally; never publish via LFS)
+/sergi_pniq_dpd/diagnostics/pnnn_hidden_continuation/tp1442baa6_833f_4abe_a213_602d50180629/inference.mat
+/sergi_pniq_dpd/diagnostics/pnnn_loss_experiment/tp15ee449b_7a1a_4442_a6ae_cdefa2453e8a/inference.mat
+/sergi_pniq_dpd/diagnostics/pnnn_mixed_loss/tp390d053f_18ea_464b_8c05_db89f2b156eb/tpc6c585a5_81aa_4b4a_8ac0_0ca4c0fbcf81/inference.mat
+/sergi_pniq_dpd/diagnostics/pnnn_readout_ls/tp927d59fa_d1a5_4040_a786_7820557ca62f/analysis.mat
+/sergi_pniq_dpd/diagnostics/pnnn_readout_ls/tp927d59fa_d1a5_4040_a786_7820557ca62f/inference.mat
+/sergi_pniq_dpd/diagnostics/pnnn_readout_ls/tp927d59fa_d1a5_4040_a786_7820557ca62f/prepared.mat
+/sergi_pniq_dpd/diagnostics/pnnn_root_cause/tp0f242878_e7a5_4587_93ac_7eda9246e580/analysis.mat

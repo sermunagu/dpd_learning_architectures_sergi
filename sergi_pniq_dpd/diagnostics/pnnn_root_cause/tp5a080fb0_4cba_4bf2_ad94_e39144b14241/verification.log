@@ -1,0 +1,19 @@
+Linear 1 exact=0 maxAbs=1.49551967509386e-12
+Linear 1 relativeL2=8.10499362085407e-12 NMSEdelta=1.4210854715202e-12 dB
+Linear 2 exact=1 maxAbs=0
+Linear 2 relativeL2=0 NMSEdelta=0 dB
+     Model     RadialMSE     QuadratureMSE    QuadratureErrorShare    NormalizedTrainingLossFull
+    _______    __________    _____________    ____________________    __________________________
+
+    "GMP"       5.602e-08     2.8936e-08             0.3406                    0.0012024        
+    "PN-IQ"    5.4126e-08     2.2291e-08             0.2917                   0.00096113        
+    "P310"     1.3985e-07     4.1225e-08            0.22767                    0.0019036        
+    "dense"    1.2585e-07      3.764e-08            0.23022                    0.0017323        
+
+Measured pre-CFR signal model 1 maxAbs=5.4283692581354e-12 relativeL2=4.14352729558306e-11
+Measured pre-CFR signal model 2 maxAbs=5.32912755199988e-12 relativeL2=4.45643322853383e-11
+Measured pre-CFR signal model 3 maxAbs=4.74086415415896e-07 relativeL2=7.82546585610426e-07
+L 87 (C 13-15): This keyword might not be aligned with its matching END on line 91.
+L 88 (C 22-23): This keyword might not be aligned with its matching END on line 90.
+
+SUPPLEMENT COMPLETE: C:\Sergi\Investigacion\Códigos\dpd_learning_architectures_sergi\sergi_pniq_dpd\diagnostics\pnnn_root_cause\tp5a080fb0_4cba_4bf2_ad94_e39144b14241

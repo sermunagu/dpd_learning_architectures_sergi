@@ -1,0 +1,32 @@
+                                                               File                                                           
+    __________________________________________________________________________________________________________________________
+
+    "results\experiment20261023T102742_xy.mat"                                                                                
+    "results\experimentosSergi20261023\experiment20261023T102742_xy.mat"                                                      
+    "sergi_pniq_dpd\measurements\experiment20260429T134032_xy.mat"                                                            
+    "sergi_pniq_dpd\measurements\experiment20260429T134032_forward_xy.mat"                                                    
+    "sergi_pniq_dpd\pn-iq-gmp\pn-iq-gmp\measurement\experiment20260429T134032_forward_xy.mat"                                 
+    "sergi_pniq_dpd\diagnostics\acceleration_integration\tp1c6b2c54_8f0f_4ebd_a111_5c358073e2b7\results\mode_1\experiment.mat"
+    "sergi_pniq_dpd\results\dpd_sweep\tpf25d5828_f737_4914_9d00_ffdcb309de89\experiment.mat"                                  
+    "sergi_pniq_dpd\diagnostics\acceleration_integration\tp1c6b2c54_8f0f_4ebd_a111_5c358073e2b7\results\mode_0\experiment.mat"
+    "sergi_pniq_dpd\results\dpd_sweep\tp10cf25e9_6429_492f_a1f9_18eb4eb5f157\experiment.mat"                                  
+    "sergi_pniq_dpd\results\dpd_sweep\tp98e6f7ac_f3cd_44c7_9ce3_fd8619319748\experiment.mat"                                  
+    "sergi_pniq_dpd\results\dpd_sweep\tpf1484cb1_eb1d_4fe1_9d7e_13899ee8f7e5\experiment.mat"                                  
+
+October copies exact x/y: 1/1
+April/October input exact: 1; relative L2 0
+April/October target relative L2 0.167310059535514; RMS ratio 1.15916984916526
+April ILC vs forward input exact 1; fs 491520000; October fs 491520000
+April exp_config available 0; October exp_config available 1
+April info_signal fields: Df, M, NPRB, BW, Nslots, NFFT, ovs, fsovs, Foff, BWeff, seed, centralSC, ffig, fclipCarrier, fclip, PAPRdCarrier, PAPRd, SpectrumShaping, SpectrumShapingParam, mask, maskerr, mu, fs
+All 458 original MAT schemas inspected.
+CHECKCODE analyzeFrozen.m
+         id: 'NOCOMMA'
+    message: 'Extra comma is unnecessary.'
+        fix: 1
+       line: 13
+     column: [20 20]
+
+CHECKCODE auditInventory.m
+CHECKCODE completeAudit.m
+CHECKCODE errorMetrics.m

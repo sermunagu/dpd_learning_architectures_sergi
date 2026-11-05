@@ -1,0 +1,41 @@
+                               rngExact: 1
+                     hiddenWeightsExact: 1
+                 hiddenActivationsExact: 1
+                     normalizationExact: 1
+                             masksExact: 1
+                       activeParameters: 310
+                          prunedWeights: 736
+           actualVsCastManualRelativeL2: 1.2687e-07
+               identificationLossBefore: 0.0014
+                identificationLossAfter: 0.0014
+                     lossRoundingBudget: 1.7413e-08
+                componentRoundingBounds: [1.0408e-08 3.4469e-08]
+                       actualRelativeNE: [2×1 double]
+                        actualMaxCosine: [2×1 double]
+    coefficientCastPredictionRelativeL2: 1.4953e-08
+      actualVsIdealPredictionRelativeL2: 6.6256e-08
+          actualVsIdealPredictionMaxAbs: 1.4342e-08
+                          idealFullNMSE: -35.5773
+                           castFullNMSE: -35.5773
+                         actualFullNMSE: -35.5773
+
+    developmentNMSEGainDb: 0.0160
+    developmentQChangePct: -0.5343
+            minimumGainDb: 0.1000
+      maximumQIncreasePct: 10
+                     pass: 0
+
+Saved-model equality and all no-overwrite guards PASS.
+CHECKCODE analyzeReadoutLS.m
+No messages.
+CHECKCODE checkReadoutCode.m
+No messages.
+CHECKCODE checkReadoutSynthetic.m
+No messages.
+CHECKCODE runReadoutLS.m
+Line 21: To improve performance, use 'isscalar' instead of length comparison.
+CHECKCODE solveMaskedReadoutLS.m
+Line 53: A Code Analyzer message was once suppressed here, but the message is no longer generated.
+Line 56: A Code Analyzer message was once suppressed here, but the message is no longer generated.
+CHECKCODE verifySavedReadoutLS.m
+No messages.

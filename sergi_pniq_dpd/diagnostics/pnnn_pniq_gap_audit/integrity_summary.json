@@ -1,0 +1,17 @@
+{
+  "VerificationDate": "2026-11-04",
+  "Algorithm": "SHA-256",
+  "Scope": "Original paths from integrity_before.csv",
+  "ManifestRows": 583,
+  "UniquePaths": 583,
+  "FilesHashed": 583,
+  "MatchingFiles": 583,
+  "MissingFiles": 0,
+  "UnreadableFiles": 0,
+  "ChangedFiles": 0,
+  "SchemaAndPathOrderPreserved": true,
+  "BeforeManifestSHA256": "AB6F2F3EB2E478F8D015478355CF4BB54F38496FDD078BD3D1E93D12B5BCE69D",
+  "AfterManifestSHA256": "AB6F2F3EB2E478F8D015478355CF4BB54F38496FDD078BD3D1E93D12B5BCE69D",
+  "Head": "1600d268c38378ad0d4fb689e7ca64dcb438f418",
+  "Discrepancies": []
+}

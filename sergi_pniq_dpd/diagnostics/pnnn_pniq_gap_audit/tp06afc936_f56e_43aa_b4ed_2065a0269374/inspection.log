@@ -1,0 +1,1789 @@
+             P: 310
+        models: {[1×1 struct]  [1×1 struct]  [1×1 struct]}
+        config: [1×1 struct]
+    sourceFile: 'C:\Sergi\Investigacion\Códigos\dpd_learning_architectures_sergi\results\experiment20261023T102742_xy.mat'
+         split: [1×1 struct]
+       metrics: [3×14 table]
+    provenance: [1×1 struct]
+            fs: 491520000
+
+            Qpmax: 50
+            Qnmax: 50
+             Pmax: 13
+    maxPopulation: 100
+        blockSize: 8192
+      dompOptions: [1×1 struct]
+
+                          M: 13
+                     orders: [1 3 5 7]
+                   featMode: 'full'
+                   removeDC: 1
+    sparseBaseHiddenNeurons: 12
+                     nnSeed: 42
+
+                        optimizer: "adam"
+                    miniBatchSize: 1024
+                 initialLearnRate: 2.0000e-04
+                learnRateSchedule: "piecewise"
+              learnRateDropFactor: 0.9500
+                          shuffle: "every-epoch"
+             executionEnvironment: "cpu"
+                          verbose: 0
+                 inputDataFormats: "BC"
+                targetDataFormats: "BC"
+          historicalTrainFraction: 0.7000
+              historicalMaxEpochs: 150
+    historicalLearnRateDropPeriod: 5
+     historicalValidationPatience: 50
+
+    historicalFineTuneEpochs: 20
+    fineTuneInitialLearnRate: 2.0000e-04
+          fineTuneSeedOffset: 100000
+
+          denseFit: [1×1 struct]
+    bestDenseEpoch: 1223
+    fineTuneEpochs: 164
+     runtimeConfig: [1×1 struct]
+
+    training: [1×1 struct]
+     pruning: [1×1 struct]
+
+          network: [1×1 dlnetwork]
+    normalization: [1×1 struct]
+
+  4×1 Layer array with layers:
+
+     1   'input'      Feature Input     84 features
+     2   'fc1'        Fully Connected   Fully connected layer with output size 12
+     3   'sigmoid1'   Sigmoid           sigmoid
+     4   'fcOut'      Fully Connected   Fully connected layer with output size 2
+               kind: "pniq"
+      regPopulation: [129×1 struct]
+            support: [155×1 double]
+         featureMap: [155×2 table]
+        descriptors: [129×1 struct]
+    selectedColumns: [155×1 double]
+      coefficientsI: [155×1 double]
+      coefficientsQ: [155×1 double]
+        comparisonI: [155×1 double]
+        comparisonQ: [155×1 double]
+         outputPeak: 0.1327
+          gmpConfig: [1×1 struct]
+
+                                     family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 0
+                               envelopeLags: [1×0 double]
+                             envelopePowers: [1×0 double]
+    structurallyRealAfterPhaseNormalization: 1
+                    QColumnStructurallyZero: 1
+                                 iSignature: "IQ:I:c+0:e1"
+                                 qSignature: "IQ:Q:c+0:e1"
+
+Feature 1 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 0
+                               envelopeLags: [1×0 double]
+                             envelopePowers: [1×0 double]
+    structurallyRealAfterPhaseNormalization: 1
+                    QColumnStructurallyZero: 1
+                                 iSignature: "IQ:I:c+0:e1"
+                                 qSignature: "IQ:Q:c+0:e1"
+
+Feature 2 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 0
+                               envelopeLags: 0
+                             envelopePowers: 3
+    structurallyRealAfterPhaseNormalization: 1
+                    QColumnStructurallyZero: 1
+                                 iSignature: "IQ:I:c+0:a+0^3"
+                                 qSignature: "IQ:Q:c+0:a+0^3"
+
+Feature 3 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 0
+                               envelopeLags: 0
+                             envelopePowers: 4
+    structurallyRealAfterPhaseNormalization: 1
+                    QColumnStructurallyZero: 1
+                                 iSignature: "IQ:I:c+0:a+0^4"
+                                 qSignature: "IQ:Q:c+0:a+0^4"
+
+Feature 4 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 6
+                               envelopeLags: [1×0 double]
+                             envelopePowers: [1×0 double]
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+6:e1"
+                                 qSignature: "IQ:Q:c+6:e1"
+
+Feature 5 Q=1                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 7
+                               envelopeLags: [1×0 double]
+                             envelopePowers: [1×0 double]
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+7:e1"
+                                 qSignature: "IQ:Q:c+7:e1"
+
+Feature 6 Q=1                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 10
+                               envelopeLags: [1×0 double]
+                             envelopePowers: [1×0 double]
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+10:e1"
+                                 qSignature: "IQ:Q:c+10:e1"
+
+Feature 7 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 0
+                               envelopeLags: -1
+                             envelopePowers: 2
+    structurallyRealAfterPhaseNormalization: 1
+                    QColumnStructurallyZero: 1
+                                 iSignature: "IQ:I:c+0:a-1^2"
+                                 qSignature: "IQ:Q:c+0:a-1^2"
+
+Feature 8 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 10
+                               envelopeLags: [1×0 double]
+                             envelopePowers: [1×0 double]
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+10:e1"
+                                 qSignature: "IQ:Q:c+10:e1"
+
+Feature 9 Q=1                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 1
+                               envelopeLags: 0
+                             envelopePowers: 5
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+1:a+0^5"
+                                 qSignature: "IQ:Q:c+1:a+0^5"
+
+Feature 10 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 3
+                               envelopeLags: 5
+                             envelopePowers: 2
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+3:a+5^2"
+                                 qSignature: "IQ:Q:c+3:a+5^2"
+
+Feature 11 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 0
+                               envelopeLags: 1
+                             envelopePowers: 9
+    structurallyRealAfterPhaseNormalization: 1
+                    QColumnStructurallyZero: 1
+                                 iSignature: "IQ:I:c+0:a+1^9"
+                                 qSignature: "IQ:Q:c+0:a+1^9"
+
+Feature 12 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 1
+                               envelopeLags: 0
+                             envelopePowers: 3
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+1:a+0^3"
+                                 qSignature: "IQ:Q:c+1:a+0^3"
+
+Feature 13 Q=1                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 5
+                               envelopeLags: 5
+                             envelopePowers: 4
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+5:a+5^4"
+                                 qSignature: "IQ:Q:c+5:a+5^4"
+
+Feature 14 Q=1                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 1
+                               envelopeLags: 0
+                             envelopePowers: 4
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+1:a+0^4"
+                                 qSignature: "IQ:Q:c+1:a+0^4"
+
+Feature 15 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 1
+                               envelopeLags: 1
+                             envelopePowers: 8
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+1:a+1^8"
+                                 qSignature: "IQ:Q:c+1:a+1^8"
+
+Feature 16 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 1
+                               envelopeLags: [1×0 double]
+                             envelopePowers: [1×0 double]
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+1:e1"
+                                 qSignature: "IQ:Q:c+1:e1"
+
+Feature 17 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 2
+                               envelopeLags: [1×0 double]
+                             envelopePowers: [1×0 double]
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+2:e1"
+                                 qSignature: "IQ:Q:c+2:e1"
+
+Feature 18 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 9
+                               envelopeLags: [1×0 double]
+                             envelopePowers: [1×0 double]
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+9:e1"
+                                 qSignature: "IQ:Q:c+9:e1"
+
+Feature 19 Q=1                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 1
+                               envelopeLags: 3
+                             envelopePowers: 1
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+1:a+3^1"
+                                 qSignature: "IQ:Q:c+1:a+3^1"
+
+Feature 20 Q=1                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 9
+                               envelopeLags: [1×0 double]
+                             envelopePowers: [1×0 double]
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+9:e1"
+                                 qSignature: "IQ:Q:c+9:e1"
+
+Feature 21 Q=1                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 1
+                               envelopeLags: [1×0 double]
+                             envelopePowers: [1×0 double]
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+1:e1"
+                                 qSignature: "IQ:Q:c+1:e1"
+
+Feature 22 Q=1                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 6
+                               envelopeLags: [1×0 double]
+                             envelopePowers: [1×0 double]
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+6:e1"
+                                 qSignature: "IQ:Q:c+6:e1"
+
+Feature 23 Q=1                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 1
+                               envelopeLags: 0
+                             envelopePowers: 8
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+1:a+0^8"
+                                 qSignature: "IQ:Q:c+1:a+0^8"
+
+Feature 24 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 0
+                               envelopeLags: -2
+                             envelopePowers: 3
+    structurallyRealAfterPhaseNormalization: 1
+                    QColumnStructurallyZero: 1
+                                 iSignature: "IQ:I:c+0:a-2^3"
+                                 qSignature: "IQ:Q:c+0:a-2^3"
+
+Feature 25 Q=1                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 6
+                               envelopeLags: 5
+                             envelopePowers: 8
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+6:a+5^8"
+                                 qSignature: "IQ:Q:c+6:a+5^8"
+
+Feature 26 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 7
+                               envelopeLags: 5
+                             envelopePowers: 1
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+7:a+5^1"
+                                 qSignature: "IQ:Q:c+7:a+5^1"
+
+Feature 27 Q=1                                      family: "conjugate auxiliary term"
+                               canonicalGMP: 0
+                              auxiliaryType: "conjugate"
+                                 carrierLag: 0
+                               envelopeLags: [1×0 double]
+                             envelopePowers: [1×0 double]
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "AUX_CONJ:I"
+                                 qSignature: "AUX_CONJ:Q"
+
+Feature 28 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 0
+                               envelopeLags: 1
+                             envelopePowers: 4
+    structurallyRealAfterPhaseNormalization: 1
+                    QColumnStructurallyZero: 1
+                                 iSignature: "IQ:I:c+0:a+1^4"
+                                 qSignature: "IQ:Q:c+0:a+1^4"
+
+Feature 29 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 0
+                               envelopeLags: 1
+                             envelopePowers: 8
+    structurallyRealAfterPhaseNormalization: 1
+                    QColumnStructurallyZero: 1
+                                 iSignature: "IQ:I:c+0:a+1^8"
+                                 qSignature: "IQ:Q:c+0:a+1^8"
+
+Feature 30 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 0
+                               envelopeLags: 1
+                             envelopePowers: 7
+    structurallyRealAfterPhaseNormalization: 1
+                    QColumnStructurallyZero: 1
+                                 iSignature: "IQ:I:c+0:a+1^7"
+                                 qSignature: "IQ:Q:c+0:a+1^7"
+
+Feature 31 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 1
+                               envelopeLags: 0
+                             envelopePowers: 4
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+1:a+0^4"
+                                 qSignature: "IQ:Q:c+1:a+0^4"
+
+Feature 32 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 0
+                               envelopeLags: 1
+                             envelopePowers: 6
+    structurallyRealAfterPhaseNormalization: 1
+                    QColumnStructurallyZero: 1
+                                 iSignature: "IQ:I:c+0:a+1^6"
+                                 qSignature: "IQ:Q:c+0:a+1^6"
+
+Feature 33 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 4
+                               envelopeLags: 6
+                             envelopePowers: 1
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+4:a+6^1"
+                                 qSignature: "IQ:Q:c+4:a+6^1"
+
+Feature 34 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 8
+                               envelopeLags: [1×0 double]
+                             envelopePowers: [1×0 double]
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+8:e1"
+                                 qSignature: "IQ:Q:c+8:e1"
+
+Feature 35 Q=1                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 3
+                               envelopeLags: 4
+                             envelopePowers: 2
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+3:a+4^2"
+                                 qSignature: "IQ:Q:c+3:a+4^2"
+
+Feature 36 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 1
+                               envelopeLags: -1
+                             envelopePowers: 9
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+1:a-1^9"
+                                 qSignature: "IQ:Q:c+1:a-1^9"
+
+Feature 37 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 1
+                               envelopeLags: 0
+                             envelopePowers: 1
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+1:a+0^1"
+                                 qSignature: "IQ:Q:c+1:a+0^1"
+
+Feature 38 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 0
+                               envelopeLags: 0
+                             envelopePowers: 9
+    structurallyRealAfterPhaseNormalization: 1
+                    QColumnStructurallyZero: 1
+                                 iSignature: "IQ:I:c+0:a+0^9"
+                                 qSignature: "IQ:Q:c+0:a+0^9"
+
+Feature 39 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 0
+                               envelopeLags: 0
+                             envelopePowers: 8
+    structurallyRealAfterPhaseNormalization: 1
+                    QColumnStructurallyZero: 1
+                                 iSignature: "IQ:I:c+0:a+0^8"
+                                 qSignature: "IQ:Q:c+0:a+0^8"
+
+Feature 40 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 0
+                               envelopeLags: 0
+                             envelopePowers: 7
+    structurallyRealAfterPhaseNormalization: 1
+                    QColumnStructurallyZero: 1
+                                 iSignature: "IQ:I:c+0:a+0^7"
+                                 qSignature: "IQ:Q:c+0:a+0^7"
+
+Feature 41 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 0
+                               envelopeLags: 0
+                             envelopePowers: 5
+    structurallyRealAfterPhaseNormalization: 1
+                    QColumnStructurallyZero: 1
+                                 iSignature: "IQ:I:c+0:a+0^5"
+                                 qSignature: "IQ:Q:c+0:a+0^5"
+
+Feature 42 Q=1                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 3
+                               envelopeLags: 1
+                             envelopePowers: 8
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+3:a+1^8"
+                                 qSignature: "IQ:Q:c+3:a+1^8"
+
+Feature 43 Q=1                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 3
+                               envelopeLags: 1
+                             envelopePowers: 7
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+3:a+1^7"
+                                 qSignature: "IQ:Q:c+3:a+1^7"
+
+Feature 44 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 9
+                               envelopeLags: 7
+                             envelopePowers: 9
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+9:a+7^9"
+                                 qSignature: "IQ:Q:c+9:a+7^9"
+
+Feature 45 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 2
+                               envelopeLags: 0
+                             envelopePowers: 2
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+2:a+0^2"
+                                 qSignature: "IQ:Q:c+2:a+0^2"
+
+Feature 46 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 0
+                               envelopeLags: -1
+                             envelopePowers: 6
+    structurallyRealAfterPhaseNormalization: 1
+                    QColumnStructurallyZero: 1
+                                 iSignature: "IQ:I:c+0:a-1^6"
+                                 qSignature: "IQ:Q:c+0:a-1^6"
+
+Feature 47 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 0
+                               envelopeLags: 1
+                             envelopePowers: 5
+    structurallyRealAfterPhaseNormalization: 1
+                    QColumnStructurallyZero: 1
+                                 iSignature: "IQ:I:c+0:a+1^5"
+                                 qSignature: "IQ:Q:c+0:a+1^5"
+
+Feature 48 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 2
+                               envelopeLags: 1
+                             envelopePowers: 9
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+2:a+1^9"
+                                 qSignature: "IQ:Q:c+2:a+1^9"
+
+Feature 49 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 2
+                               envelopeLags: 0
+                             envelopePowers: 3
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+2:a+0^3"
+                                 qSignature: "IQ:Q:c+2:a+0^3"
+
+Feature 50 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 2
+                               envelopeLags: 2
+                             envelopePowers: 9
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+2:a+2^9"
+                                 qSignature: "IQ:Q:c+2:a+2^9"
+
+Feature 51 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 1
+                               envelopeLags: 2
+                             envelopePowers: 7
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+1:a+2^7"
+                                 qSignature: "IQ:Q:c+1:a+2^7"
+
+Feature 52 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 0
+                               envelopeLags: 1
+                             envelopePowers: 3
+    structurallyRealAfterPhaseNormalization: 1
+                    QColumnStructurallyZero: 1
+                                 iSignature: "IQ:I:c+0:a+1^3"
+                                 qSignature: "IQ:Q:c+0:a+1^3"
+
+Feature 53 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 0
+                               envelopeLags: 1
+                             envelopePowers: 2
+    structurallyRealAfterPhaseNormalization: 1
+                    QColumnStructurallyZero: 1
+                                 iSignature: "IQ:I:c+0:a+1^2"
+                                 qSignature: "IQ:Q:c+0:a+1^2"
+
+Feature 54 Q=1                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 10
+                               envelopeLags: 11
+                             envelopePowers: 3
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+10:a+11^3"
+                                 qSignature: "IQ:Q:c+10:a+11^3"
+
+Feature 55 Q=1                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 6
+                               envelopeLags: 5
+                             envelopePowers: 3
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+6:a+5^3"
+                                 qSignature: "IQ:Q:c+6:a+5^3"
+
+Feature 56 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 10
+                               envelopeLags: 11
+                             envelopePowers: 3
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+10:a+11^3"
+                                 qSignature: "IQ:Q:c+10:a+11^3"
+
+Feature 57 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 3
+                               envelopeLags: [1×0 double]
+                             envelopePowers: [1×0 double]
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+3:e1"
+                                 qSignature: "IQ:Q:c+3:e1"
+
+Feature 58 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 5
+                               envelopeLags: 6
+                             envelopePowers: 9
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+5:a+6^9"
+                                 qSignature: "IQ:Q:c+5:a+6^9"
+
+Feature 59 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 6
+                               envelopeLags: 6
+                             envelopePowers: 5
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+6:a+6^5"
+                                 qSignature: "IQ:Q:c+6:a+6^5"
+
+Feature 60 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 0
+                               envelopeLags: 1
+                             envelopePowers: 1
+    structurallyRealAfterPhaseNormalization: 1
+                    QColumnStructurallyZero: 1
+                                 iSignature: "IQ:I:c+0:a+1^1"
+                                 qSignature: "IQ:Q:c+0:a+1^1"
+
+Feature 61 Q=1                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 3
+                               envelopeLags: 2
+                             envelopePowers: 4
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+3:a+2^4"
+                                 qSignature: "IQ:Q:c+3:a+2^4"
+
+Feature 62 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 2
+                               envelopeLags: 0
+                             envelopePowers: 1
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+2:a+0^1"
+                                 qSignature: "IQ:Q:c+2:a+0^1"
+
+Feature 63 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 4
+                               envelopeLags: 4
+                             envelopePowers: 1
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+4:a+4^1"
+                                 qSignature: "IQ:Q:c+4:a+4^1"
+
+Feature 64 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 9
+                               envelopeLags: 8
+                             envelopePowers: 7
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+9:a+8^7"
+                                 qSignature: "IQ:Q:c+9:a+8^7"
+
+Feature 65 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 6
+                               envelopeLags: 5
+                             envelopePowers: 2
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+6:a+5^2"
+                                 qSignature: "IQ:Q:c+6:a+5^2"
+
+Feature 66 Q=1                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 2
+                               envelopeLags: 0
+                             envelopePowers: 8
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+2:a+0^8"
+                                 qSignature: "IQ:Q:c+2:a+0^8"
+
+Feature 67 Q=1                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 2
+                               envelopeLags: 0
+                             envelopePowers: 7
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+2:a+0^7"
+                                 qSignature: "IQ:Q:c+2:a+0^7"
+
+Feature 68 Q=1                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 2
+                               envelopeLags: 0
+                             envelopePowers: 3
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+2:a+0^3"
+                                 qSignature: "IQ:Q:c+2:a+0^3"
+
+Feature 69 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 5
+                               envelopeLags: 5
+                             envelopePowers: 9
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+5:a+5^9"
+                                 qSignature: "IQ:Q:c+5:a+5^9"
+
+Feature 70 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 5
+                               envelopeLags: 5
+                             envelopePowers: 8
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+5:a+5^8"
+                                 qSignature: "IQ:Q:c+5:a+5^8"
+
+Feature 71 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 3
+                               envelopeLags: 3
+                             envelopePowers: 1
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+3:a+3^1"
+                                 qSignature: "IQ:Q:c+3:a+3^1"
+
+Feature 72 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 1
+                               envelopeLags: 2
+                             envelopePowers: 1
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+1:a+2^1"
+                                 qSignature: "IQ:Q:c+1:a+2^1"
+
+Feature 73 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 5
+                               envelopeLags: 7
+                             envelopePowers: 1
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+5:a+7^1"
+                                 qSignature: "IQ:Q:c+5:a+7^1"
+
+Feature 74 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 1
+                               envelopeLags: 1
+                             envelopePowers: 9
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+1:a+1^9"
+                                 qSignature: "IQ:Q:c+1:a+1^9"
+
+Feature 75 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 1
+                               envelopeLags: 1
+                             envelopePowers: 7
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+1:a+1^7"
+                                 qSignature: "IQ:Q:c+1:a+1^7"
+
+Feature 76 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 2
+                               envelopeLags: 1
+                             envelopePowers: 4
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+2:a+1^4"
+                                 qSignature: "IQ:Q:c+2:a+1^4"
+
+Feature 77 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 2
+                               envelopeLags: 0
+                             envelopePowers: 4
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+2:a+0^4"
+                                 qSignature: "IQ:Q:c+2:a+0^4"
+
+Feature 78 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 1
+                               envelopeLags: -1
+                             envelopePowers: 8
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+1:a-1^8"
+                                 qSignature: "IQ:Q:c+1:a-1^8"
+
+Feature 79 Q=1                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 8
+                               envelopeLags: [1×0 double]
+                             envelopePowers: [1×0 double]
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+8:e1"
+                                 qSignature: "IQ:Q:c+8:e1"
+
+Feature 80 Q=1                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 2
+                               envelopeLags: [1×0 double]
+                             envelopePowers: [1×0 double]
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+2:e1"
+                                 qSignature: "IQ:Q:c+2:e1"
+
+Feature 81 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 1
+                               envelopeLags: -1
+                             envelopePowers: 7
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+1:a-1^7"
+                                 qSignature: "IQ:Q:c+1:a-1^7"
+
+Feature 82 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 0
+                               envelopeLags: 0
+                             envelopePowers: 6
+    structurallyRealAfterPhaseNormalization: 1
+                    QColumnStructurallyZero: 1
+                                 iSignature: "IQ:I:c+0:a+0^6"
+                                 qSignature: "IQ:Q:c+0:a+0^6"
+
+Feature 83 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 0
+                               envelopeLags: 0
+                             envelopePowers: 2
+    structurallyRealAfterPhaseNormalization: 1
+                    QColumnStructurallyZero: 1
+                                 iSignature: "IQ:I:c+0:a+0^2"
+                                 qSignature: "IQ:Q:c+0:a+0^2"
+
+Feature 84 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 9
+                               envelopeLags: 11
+                             envelopePowers: 3
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+9:a+11^3"
+                                 qSignature: "IQ:Q:c+9:a+11^3"
+
+Feature 85 Q=1                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 3
+                               envelopeLags: 5
+                             envelopePowers: 2
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+3:a+5^2"
+                                 qSignature: "IQ:Q:c+3:a+5^2"
+
+Feature 86 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 0
+                               envelopeLags: 0
+                             envelopePowers: 1
+    structurallyRealAfterPhaseNormalization: 1
+                    QColumnStructurallyZero: 1
+                                 iSignature: "IQ:I:c+0:a+0^1"
+                                 qSignature: "IQ:Q:c+0:a+0^1"
+
+Feature 87 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 4
+                               envelopeLags: 5
+                             envelopePowers: 2
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+4:a+5^2"
+                                 qSignature: "IQ:Q:c+4:a+5^2"
+
+Feature 88 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 4
+                               envelopeLags: [1×0 double]
+                             envelopePowers: [1×0 double]
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+4:e1"
+                                 qSignature: "IQ:Q:c+4:e1"
+
+Feature 89 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 7
+                               envelopeLags: [1×0 double]
+                             envelopePowers: [1×0 double]
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+7:e1"
+                                 qSignature: "IQ:Q:c+7:e1"
+
+Feature 90 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 5
+                               envelopeLags: [1×0 double]
+                             envelopePowers: [1×0 double]
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+5:e1"
+                                 qSignature: "IQ:Q:c+5:e1"
+
+Feature 91 Q=0                                      family: "conjugate auxiliary term"
+                               canonicalGMP: 0
+                              auxiliaryType: "conjugate"
+                                 carrierLag: 0
+                               envelopeLags: [1×0 double]
+                             envelopePowers: [1×0 double]
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "AUX_CONJ:I"
+                                 qSignature: "AUX_CONJ:Q"
+
+Feature 92 Q=1                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 3
+                               envelopeLags: [1×0 double]
+                             envelopePowers: [1×0 double]
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+3:e1"
+                                 qSignature: "IQ:Q:c+3:e1"
+
+Feature 93 Q=1                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 5
+                               envelopeLags: [1×0 double]
+                             envelopePowers: [1×0 double]
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+5:e1"
+                                 qSignature: "IQ:Q:c+5:e1"
+
+Feature 94 Q=1                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 4
+                               envelopeLags: [1×0 double]
+                             envelopePowers: [1×0 double]
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+4:e1"
+                                 qSignature: "IQ:Q:c+4:e1"
+
+Feature 95 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 8
+                               envelopeLags: 6
+                             envelopePowers: 9
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+8:a+6^9"
+                                 qSignature: "IQ:Q:c+8:a+6^9"
+
+Feature 96 Q=1                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 1
+                               envelopeLags: -1
+                             envelopePowers: 3
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+1:a-1^3"
+                                 qSignature: "IQ:Q:c+1:a-1^3"
+
+Feature 97 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 5
+                               envelopeLags: 5
+                             envelopePowers: 7
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+5:a+5^7"
+                                 qSignature: "IQ:Q:c+5:a+5^7"
+
+Feature 98 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 6
+                               envelopeLags: 5
+                             envelopePowers: 1
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+6:a+5^1"
+                                 qSignature: "IQ:Q:c+6:a+5^1"
+
+Feature 99 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 5
+                               envelopeLags: 6
+                             envelopePowers: 1
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+5:a+6^1"
+                                 qSignature: "IQ:Q:c+5:a+6^1"
+
+Feature 100 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 5
+                               envelopeLags: 6
+                             envelopePowers: 8
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+5:a+6^8"
+                                 qSignature: "IQ:Q:c+5:a+6^8"
+
+Feature 101 Q=1                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 2
+                               envelopeLags: 2
+                             envelopePowers: 8
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+2:a+2^8"
+                                 qSignature: "IQ:Q:c+2:a+2^8"
+
+Feature 102 Q=1                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 3
+                               envelopeLags: 2
+                             envelopePowers: 5
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+3:a+2^5"
+                                 qSignature: "IQ:Q:c+3:a+2^5"
+
+Feature 103 Q=1                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 2
+                               envelopeLags: 1
+                             envelopePowers: 3
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+2:a+1^3"
+                                 qSignature: "IQ:Q:c+2:a+1^3"
+
+Feature 104 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 2
+                               envelopeLags: 0
+                             envelopePowers: 5
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+2:a+0^5"
+                                 qSignature: "IQ:Q:c+2:a+0^5"
+
+Feature 105 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 2
+                               envelopeLags: 0
+                             envelopePowers: 9
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+2:a+0^9"
+                                 qSignature: "IQ:Q:c+2:a+0^9"
+
+Feature 106 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 2
+                               envelopeLags: 0
+                             envelopePowers: 8
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+2:a+0^8"
+                                 qSignature: "IQ:Q:c+2:a+0^8"
+
+Feature 107 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 2
+                               envelopeLags: 0
+                             envelopePowers: 7
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+2:a+0^7"
+                                 qSignature: "IQ:Q:c+2:a+0^7"
+
+Feature 108 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 2
+                               envelopeLags: 0
+                             envelopePowers: 6
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+2:a+0^6"
+                                 qSignature: "IQ:Q:c+2:a+0^6"
+
+Feature 109 Q=1                                      family: "envelope-only auxiliary term"
+                               canonicalGMP: 0
+                              auxiliaryType: "envelope"
+                                 carrierLag: NaN
+                               envelopeLags: 0
+                             envelopePowers: 1
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "AUX_ENV:I"
+                                 qSignature: "AUX_ENV:Q"
+
+Feature 110 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 10
+                               envelopeLags: 9
+                             envelopePowers: 3
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+10:a+9^3"
+                                 qSignature: "IQ:Q:c+10:a+9^3"
+
+Feature 111 Q=1                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 5
+                               envelopeLags: 5
+                             envelopePowers: 6
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+5:a+5^6"
+                                 qSignature: "IQ:Q:c+5:a+5^6"
+
+Feature 112 Q=1                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 6
+                               envelopeLags: 8
+                             envelopePowers: 9
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+6:a+8^9"
+                                 qSignature: "IQ:Q:c+6:a+8^9"
+
+Feature 113 Q=1                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 6
+                               envelopeLags: 6
+                             envelopePowers: 9
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+6:a+6^9"
+                                 qSignature: "IQ:Q:c+6:a+6^9"
+
+Feature 114 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 2
+                               envelopeLags: 2
+                             envelopePowers: 4
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+2:a+2^4"
+                                 qSignature: "IQ:Q:c+2:a+2^4"
+
+Feature 115 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 0
+                               envelopeLags: -2
+                             envelopePowers: 2
+    structurallyRealAfterPhaseNormalization: 1
+                    QColumnStructurallyZero: 1
+                                 iSignature: "IQ:I:c+0:a-2^2"
+                                 qSignature: "IQ:Q:c+0:a-2^2"
+
+Feature 116 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 2
+                               envelopeLags: 1
+                             envelopePowers: 8
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+2:a+1^8"
+                                 qSignature: "IQ:Q:c+2:a+1^8"
+
+Feature 117 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 2
+                               envelopeLags: 1
+                             envelopePowers: 7
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+2:a+1^7"
+                                 qSignature: "IQ:Q:c+2:a+1^7"
+
+Feature 118 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 1
+                               envelopeLags: 3
+                             envelopePowers: 1
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+1:a+3^1"
+                                 qSignature: "IQ:Q:c+1:a+3^1"
+
+Feature 119 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 4
+                               envelopeLags: 6
+                             envelopePowers: 6
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+4:a+6^6"
+                                 qSignature: "IQ:Q:c+4:a+6^6"
+
+Feature 120 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 6
+                               envelopeLags: 6
+                             envelopePowers: 3
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+6:a+6^3"
+                                 qSignature: "IQ:Q:c+6:a+6^3"
+
+Feature 121 Q=1                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 6
+                               envelopeLags: 6
+                             envelopePowers: 5
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+6:a+6^5"
+                                 qSignature: "IQ:Q:c+6:a+6^5"
+
+Feature 122 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 7
+                               envelopeLags: 6
+                             envelopePowers: 8
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+7:a+6^8"
+                                 qSignature: "IQ:Q:c+7:a+6^8"
+
+Feature 123 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 6
+                               envelopeLags: 6
+                             envelopePowers: 2
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+6:a+6^2"
+                                 qSignature: "IQ:Q:c+6:a+6^2"
+
+Feature 124 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 0
+                               envelopeLags: 2
+                             envelopePowers: 2
+    structurallyRealAfterPhaseNormalization: 1
+                    QColumnStructurallyZero: 1
+                                 iSignature: "IQ:I:c+0:a+2^2"
+                                 qSignature: "IQ:Q:c+0:a+2^2"
+
+Feature 125 Q=1                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 1
+                               envelopeLags: 0
+                             envelopePowers: 1
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+1:a+0^1"
+                                 qSignature: "IQ:Q:c+1:a+0^1"
+
+Feature 126 Q=1                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 1
+                               envelopeLags: 0
+                             envelopePowers: 7
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+1:a+0^7"
+                                 qSignature: "IQ:Q:c+1:a+0^7"
+
+Feature 127 Q=1                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 1
+                               envelopeLags: 0
+                             envelopePowers: 6
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+1:a+0^6"
+                                 qSignature: "IQ:Q:c+1:a+0^6"
+
+Feature 128 Q=1                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 1
+                               envelopeLags: 0
+                             envelopePowers: 3
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+1:a+0^3"
+                                 qSignature: "IQ:Q:c+1:a+0^3"
+
+Feature 129 Q=1                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 2
+                               envelopeLags: 0
+                             envelopePowers: 5
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+2:a+0^5"
+                                 qSignature: "IQ:Q:c+2:a+0^5"
+
+Feature 130 Q=1                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 1
+                               envelopeLags: 0
+                             envelopePowers: 2
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+1:a+0^2"
+                                 qSignature: "IQ:Q:c+1:a+0^2"
+
+Feature 131 Q=1                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 2
+                               envelopeLags: 1
+                             envelopePowers: 8
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+2:a+1^8"
+                                 qSignature: "IQ:Q:c+2:a+1^8"
+
+Feature 132 Q=1                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 3
+                               envelopeLags: 2
+                             envelopePowers: 8
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+3:a+2^8"
+                                 qSignature: "IQ:Q:c+3:a+2^8"
+
+Feature 133 Q=1                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 1
+                               envelopeLags: 1
+                             envelopePowers: 3
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+1:a+1^3"
+                                 qSignature: "IQ:Q:c+1:a+1^3"
+
+Feature 134 Q=1                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 4
+                               envelopeLags: 2
+                             envelopePowers: 8
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+4:a+2^8"
+                                 qSignature: "IQ:Q:c+4:a+2^8"
+
+Feature 135 Q=1                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 1
+                               envelopeLags: 2
+                             envelopePowers: 8
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+1:a+2^8"
+                                 qSignature: "IQ:Q:c+1:a+2^8"
+
+Feature 136 Q=1                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 3
+                               envelopeLags: 1
+                             envelopePowers: 6
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+3:a+1^6"
+                                 qSignature: "IQ:Q:c+3:a+1^6"
+
+Feature 137 Q=1                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 3
+                               envelopeLags: 1
+                             envelopePowers: 5
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+3:a+1^5"
+                                 qSignature: "IQ:Q:c+3:a+1^5"
+
+Feature 138 Q=1                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 3
+                               envelopeLags: 1
+                             envelopePowers: 4
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+3:a+1^4"
+                                 qSignature: "IQ:Q:c+3:a+1^4"
+
+Feature 139 Q=1                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 1
+                               envelopeLags: 1
+                             envelopePowers: 8
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+1:a+1^8"
+                                 qSignature: "IQ:Q:c+1:a+1^8"
+
+Feature 140 Q=1                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 3
+                               envelopeLags: 1
+                             envelopePowers: 3
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+3:a+1^3"
+                                 qSignature: "IQ:Q:c+3:a+1^3"
+
+Feature 141 Q=1                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 3
+                               envelopeLags: 1
+                             envelopePowers: 2
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+3:a+1^2"
+                                 qSignature: "IQ:Q:c+3:a+1^2"
+
+Feature 142 Q=1                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 3
+                               envelopeLags: 2
+                             envelopePowers: 7
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+3:a+2^7"
+                                 qSignature: "IQ:Q:c+3:a+2^7"
+
+Feature 143 Q=1                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 1
+                               envelopeLags: -1
+                             envelopePowers: 2
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+1:a-1^2"
+                                 qSignature: "IQ:Q:c+1:a-1^2"
+
+Feature 144 Q=1                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 1
+                               envelopeLags: -1
+                             envelopePowers: 8
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+1:a-1^8"
+                                 qSignature: "IQ:Q:c+1:a-1^8"
+
+Feature 145 Q=1                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 1
+                               envelopeLags: -1
+                             envelopePowers: 5
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+1:a-1^5"
+                                 qSignature: "IQ:Q:c+1:a-1^5"
+
+Feature 146 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 7
+                               envelopeLags: 7
+                             envelopePowers: 8
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+7:a+7^8"
+                                 qSignature: "IQ:Q:c+7:a+7^8"
+
+Feature 147 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 2
+                               envelopeLags: 4
+                             envelopePowers: 9
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+2:a+4^9"
+                                 qSignature: "IQ:Q:c+2:a+4^9"
+
+Feature 148 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 2
+                               envelopeLags: 3
+                             envelopePowers: 6
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+2:a+3^6"
+                                 qSignature: "IQ:Q:c+2:a+3^6"
+
+Feature 149 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 8
+                               envelopeLags: 8
+                             envelopePowers: 6
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+8:a+8^6"
+                                 qSignature: "IQ:Q:c+8:a+8^6"
+
+Feature 150 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 3
+                               envelopeLags: 5
+                             envelopePowers: 4
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+3:a+5^4"
+                                 qSignature: "IQ:Q:c+3:a+5^4"
+
+Feature 151 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 4
+                               envelopeLags: 6
+                             envelopePowers: 2
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+4:a+6^2"
+                                 qSignature: "IQ:Q:c+4:a+6^2"
+
+Feature 152 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 3
+                               envelopeLags: 2
+                             envelopePowers: 1
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+3:a+2^1"
+                                 qSignature: "IQ:Q:c+3:a+2^1"
+
+Feature 153 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 2
+                               envelopeLags: 1
+                             envelopePowers: 6
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+2:a+1^6"
+                                 qSignature: "IQ:Q:c+2:a+1^6"
+
+Feature 154 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 2
+                               envelopeLags: 1
+                             envelopePowers: 5
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+2:a+1^5"
+                                 qSignature: "IQ:Q:c+2:a+1^5"
+
+Feature 155 Q=0                                      family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 2
+                               envelopeLags: 1
+                             envelopePowers: 3
+    structurallyRealAfterPhaseNormalization: 0
+                    QColumnStructurallyZero: 0
+                                 iSignature: "IQ:I:c+2:a+1^3"
+                                 qSignature: "IQ:Q:c+2:a+1^3"
+
+Model source and descriptor inspection complete: C:\Sergi\Investigacion\Códigos\dpd_learning_architectures_sergi\sergi_pniq_dpd\diagnostics\pnnn_pniq_gap_audit\tp06afc936_f56e_43aa_b4ed_2065a0269374

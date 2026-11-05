@@ -1,0 +1,37 @@
+SYNTHETIC METRICS, SHAPES AND PHASE PASS.
+               kind: "pniq"
+      regPopulation: [129×1 struct]
+            support: [155×1 double]
+         featureMap: [155×2 table]
+        descriptors: [129×1 struct]
+    selectedColumns: [155×1 double]
+      coefficientsI: [155×1 double]
+      coefficientsQ: [155×1 double]
+        comparisonI: [155×1 double]
+        comparisonQ: [155×1 double]
+         outputPeak: 0.1327
+          gmpConfig: [1×1 struct]
+
+ALL THREE FROZEN PREDICTIONS EXACTLY MATCH SAVED REFERENCES.
+I reduction 3.48152797175392e-08; Q penalty 8.75751922858061e-09; fraction offset 0.251542406; net 2.60577604889586e-08
+          Model                    Domain                  N          NMSE         MSEI          MSEQ          MSE           MAE          RMS        PAPR     RelativeL2       BiasI          BiasQ   
+    _________________    __________________________    __________    _______    __________    __________    __________    __________    ________    ______    __________    ___________    ___________
+
+    "Historical PNNN"    "Identification"                   49151    -35.112    1.4009e-07    4.1412e-08     1.815e-07    0.00029487    0.024255    13.889     0.017556      -2.583e-06     5.9232e-07
+    "Historical PNNN"    "Development complement"      4.4237e+05    -35.131    1.3982e-07    4.1205e-08    1.8102e-07     0.0002983    0.024284    13.802     0.017517      1.9312e-06     1.0428e-06
+    "Historical PNNN"    "Full development capture"    4.9152e+05    -35.129    1.3985e-07    4.1225e-08    1.8107e-07    0.00029796    0.024281     13.88     0.017521      1.4798e-06     9.9778e-07
+    "Weighted PNNN"      "Identification"                   49151    -35.739    1.0657e-07    5.0521e-08    1.5709e-07    0.00027439    0.024251    13.965     0.016333     -7.1185e-06    -2.2495e-06
+    "Weighted PNNN"      "Development complement"      4.4237e+05    -35.811    1.0486e-07    4.9923e-08    1.5478e-07    0.00027625    0.024278    13.911     0.016198     -3.2568e-06    -1.4829e-06
+    "Weighted PNNN"      "Full development capture"    4.9152e+05    -35.804    1.0503e-07    4.9983e-08    1.5501e-07    0.00027606    0.024276    13.956     0.016211      -3.643e-06    -1.5596e-06
+    "PN-IQ-GMP"          "Identification"                   49151     -39.06    5.1236e-08    2.1885e-08    7.3121e-08    0.00017836    0.024266    14.635     0.011143      1.3761e-07      2.135e-07
+    "PN-IQ-GMP"          "Development complement"      4.4237e+05    -38.855    5.4447e-08    2.2336e-08    7.6784e-08    0.00018144    0.024289    14.809     0.011408      2.9911e-06     2.9051e-08
+    "PN-IQ-GMP"          "Full development capture"    4.9152e+05    -38.875    5.4126e-08    2.2291e-08    7.6417e-08    0.00018113    0.024287    14.809     0.011382      2.7057e-06     4.7496e-08
+
+          Model          TargetRadialMSE    TargetTangentialMSE    EnergyWeightedPhaseRMSEDeg
+    _________________    _______________    ___________________    __________________________
+
+    "Historical PNNN"      1.3947e-07           4.1598e-08                  0.47855          
+    "Weighted PNNN"        1.0713e-07           4.7881e-08                  0.51525          
+    "PN-IQ-GMP"            5.7221e-08           1.9196e-08                   0.3271          
+
+NO TRAINING. SAME-CAPTURE ANALYSIS COMPLETE: C:\Sergi\Investigacion\Códigos\dpd_learning_architectures_sergi\sergi_pniq_dpd\diagnostics\pnnn_loss_validation\tpa1c233b4_dbd3_4fd6_b4ed_58dfa5b91317

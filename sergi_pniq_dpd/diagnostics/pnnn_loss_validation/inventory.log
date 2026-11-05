@@ -1,0 +1,243 @@
+
+FILE C:\Sergi\Investigacion\Códigos\dpd_learning_architectures_sergi\results\experiment20261023T102742.mat
+    {'exp_config'}    {'filenamedate'}    {'info_signal'}    {'meas_out'}
+
+                            G: 63.7879
+                           G0: 63.5000
+                           Gc: 57.2603
+                         Lout: 62.6000
+                      Ncycles: 16
+                        Niter: 15
+                        PAPRd: 12
+                          Phc: -15.2312
+                        RMSin: -22
+                      maxRMSx: -19
+                      maxPEPx: -6
+                  captureTime: 16
+                           fc: 2.6000e+09
+                           fs: 491520000
+                            g: 1.5467e+03
+                           g0: 1.4962e+03
+                           gc: 729.4843
+                           mu: [0.9271 0.9452 0.9514 0.9549 0.9574 0.9594 0.9607 0.9617 0.9632 0.9640 0.9650 0.9656 0.9662 0.9667 0.9674]
+                  waveform_id: 8
+                     DLmethod: 'ILC'
+                     gainMode: 'fixed'
+                       Gfixed: 63.5000
+       measureWithoutDPDAtEnd: 0
+    deleteIntermediateSignals: 1
+          saveLastMeasurement: 1
+            stopOnConvergence: 0
+                ACPRthreshold: 0.0100
+
+                      Df: 60000
+                       M: 256
+                    NPRB: 135
+                      BW: 100000000
+                  Nslots: 4
+                    NFFT: 2048
+                     ovs: 4
+                   fsovs: 491520000
+                    Foff: 0
+                   BWeff: 97200000
+                    seed: 1000
+               centralSC: 0
+                    ffig: [1 1]
+            fclipCarrier: 0
+                   fclip: 0
+            PAPRdCarrier: 10.5000
+                   PAPRd: 12
+         SpectrumShaping: 'BPideal'
+    SpectrumShapingParam: 0
+                    mask: [3×3 double]
+                 maskerr: []
+                      mu: 2
+                      fs: 122880000
+
+
+FILE C:\Sergi\Investigacion\Códigos\dpd_learning_architectures_sergi\results\experiment20261023T102742_xy.mat
+    {'description'}    {'exp_config'}    {'fs'}    {'info_signal'}    {'x'}    {'y'}
+
+Measurement taken from experiment20261023T102742 for DPD modeling.
+   491520000
+
+                            G: 63.7879
+                           G0: 63.5000
+                           Gc: 57.2603
+                         Lout: 62.6000
+                      Ncycles: 16
+                        Niter: 15
+                        PAPRd: 12
+                          Phc: -15.2312
+                        RMSin: -22
+                      maxRMSx: -19
+                      maxPEPx: -6
+                  captureTime: 16
+                           fc: 2.6000e+09
+                           fs: 491520000
+                            g: 1.5467e+03
+                           g0: 1.4962e+03
+                           gc: 729.4843
+                           mu: [0.9271 0.9452 0.9514 0.9549 0.9574 0.9594 0.9607 0.9617 0.9632 0.9640 0.9650 0.9656 0.9662 0.9667 0.9674]
+                  waveform_id: 8
+                     DLmethod: 'ILC'
+                     gainMode: 'fixed'
+                       Gfixed: 63.5000
+       measureWithoutDPDAtEnd: 0
+    deleteIntermediateSignals: 1
+          saveLastMeasurement: 1
+            stopOnConvergence: 0
+                ACPRthreshold: 0.0100
+
+                      Df: 60000
+                       M: 256
+                    NPRB: 135
+                      BW: 100000000
+                  Nslots: 4
+                    NFFT: 2048
+                     ovs: 4
+                   fsovs: 491520000
+                    Foff: 0
+                   BWeff: 97200000
+                    seed: 1000
+               centralSC: 0
+                    ffig: [1 1]
+            fclipCarrier: 0
+                   fclip: 0
+            PAPRdCarrier: 10.5000
+                   PAPRd: 12
+         SpectrumShaping: 'BPideal'
+    SpectrumShapingParam: 0
+                    mask: [3×3 double]
+                 maskerr: []
+                      mu: 2
+                      fs: 122880000
+
+XY length 491520/491520; RMS 0.0251188643151/0.0242868099025
+
+FILE C:\Sergi\Investigacion\Códigos\dpd_learning_architectures_sergi\results\experimentosSergi20261023\experiment20261023T102742.mat
+    {'exp_config'}    {'filenamedate'}    {'info_signal'}    {'meas_out'}
+
+                            G: 63.7879
+                           G0: 63.5000
+                           Gc: 57.2603
+                         Lout: 62.6000
+                      Ncycles: 16
+                        Niter: 15
+                        PAPRd: 12
+                          Phc: -15.2312
+                        RMSin: -22
+                      maxRMSx: -19
+                      maxPEPx: -6
+                  captureTime: 16
+                           fc: 2.6000e+09
+                           fs: 491520000
+                            g: 1.5467e+03
+                           g0: 1.4962e+03
+                           gc: 729.4843
+                           mu: [0.9271 0.9452 0.9514 0.9549 0.9574 0.9594 0.9607 0.9617 0.9632 0.9640 0.9650 0.9656 0.9662 0.9667 0.9674]
+                  waveform_id: 8
+                     DLmethod: 'ILC'
+                     gainMode: 'fixed'
+                       Gfixed: 63.5000
+       measureWithoutDPDAtEnd: 0
+    deleteIntermediateSignals: 1
+          saveLastMeasurement: 1
+            stopOnConvergence: 0
+                ACPRthreshold: 0.0100
+
+                      Df: 60000
+                       M: 256
+                    NPRB: 135
+                      BW: 100000000
+                  Nslots: 4
+                    NFFT: 2048
+                     ovs: 4
+                   fsovs: 491520000
+                    Foff: 0
+                   BWeff: 97200000
+                    seed: 1000
+               centralSC: 0
+                    ffig: [1 1]
+            fclipCarrier: 0
+                   fclip: 0
+            PAPRdCarrier: 10.5000
+                   PAPRd: 12
+         SpectrumShaping: 'BPideal'
+    SpectrumShapingParam: 0
+                    mask: [3×3 double]
+                 maskerr: []
+                      mu: 2
+                      fs: 122880000
+
+
+FILE C:\Sergi\Investigacion\Códigos\dpd_learning_architectures_sergi\results\experimentosSergi20261023\experiment20261023T102742_xy.mat
+    {'description'}    {'exp_config'}    {'fs'}    {'info_signal'}    {'x'}    {'y'}
+
+Measurement taken from experiment20261023T102742 for DPD modeling.
+   491520000
+
+                            G: 63.7879
+                           G0: 63.5000
+                           Gc: 57.2603
+                         Lout: 62.6000
+                      Ncycles: 16
+                        Niter: 15
+                        PAPRd: 12
+                          Phc: -15.2312
+                        RMSin: -22
+                      maxRMSx: -19
+                      maxPEPx: -6
+                  captureTime: 16
+                           fc: 2.6000e+09
+                           fs: 491520000
+                            g: 1.5467e+03
+                           g0: 1.4962e+03
+                           gc: 729.4843
+                           mu: [0.9271 0.9452 0.9514 0.9549 0.9574 0.9594 0.9607 0.9617 0.9632 0.9640 0.9650 0.9656 0.9662 0.9667 0.9674]
+                  waveform_id: 8
+                     DLmethod: 'ILC'
+                     gainMode: 'fixed'
+                       Gfixed: 63.5000
+       measureWithoutDPDAtEnd: 0
+    deleteIntermediateSignals: 1
+          saveLastMeasurement: 1
+            stopOnConvergence: 0
+                ACPRthreshold: 0.0100
+
+                      Df: 60000
+                       M: 256
+                    NPRB: 135
+                      BW: 100000000
+                  Nslots: 4
+                    NFFT: 2048
+                     ovs: 4
+                   fsovs: 491520000
+                    Foff: 0
+                   BWeff: 97200000
+                    seed: 1000
+               centralSC: 0
+                    ffig: [1 1]
+            fclipCarrier: 0
+                   fclip: 0
+            PAPRdCarrier: 10.5000
+                   PAPRd: 12
+         SpectrumShaping: 'BPideal'
+    SpectrumShapingParam: 0
+                    mask: [3×3 double]
+                 maskerr: []
+                      mu: 2
+                      fs: 122880000
+
+XY length 491520/491520; RMS 0.0251188643151/0.0242868099025
+
+FILE C:\Sergi\Investigacion\Códigos\dpd_learning_architectures_sergi\sergi_pniq_dpd\diagnostics\acceleration_integration\tp1c6b2c54_8f0f_4ebd_a111_5c358073e2b7\results\mode_0\experiment.mat
+    {'cfg'}    {'provenance'}    {'split'}    {'x'}    {'y'}
+
+               sourceFile: 'C:\Sergi\Investigacion\Códigos\dpd_learning_architectures_sergi\results\experiment20261023T102742_xy.mat'
+                inputMean: -6.3313e-08 - 3.4328e-07i
+               outputMean: -9.1224e-07 - 4.9462e-06i
+             signalDomain: "x = u; y = x_ILC; offline ILC imitation"
+    rfValidationPerformed: 0
+                       fs: 491520000
+

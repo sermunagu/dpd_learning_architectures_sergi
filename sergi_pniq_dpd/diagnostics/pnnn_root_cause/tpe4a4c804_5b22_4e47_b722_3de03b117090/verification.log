@@ -1,0 +1,12 @@
+Linear 1 exact=0 maxAbs=1.49551967509386e-12
+Linear 1 relativeL2=8.10499362085407e-12 NMSEdelta=1.4210854715202e-12 dB
+Linear 2 exact=1 maxAbs=0
+Linear 2 relativeL2=0 NMSEdelta=0 dB
+             Model             Exact      MaxAbs      RelativeL2    RelativeMaxGlobal    SavedNMSE    ReconstructedNMSE    AbsNMSEDelta    Pass 
+    _______________________    _____    __________    __________    _________________    _________    _________________    ____________    _____
+
+    "Complex_GMP_DOMP_P310"    false    1.4955e-12    8.105e-12        1.0941e-11         -38.415          -38.415          1.4211e-12     true 
+    "PN_IQ_GMP_P310"           true              0            0                 0         -38.875          -38.875                   0     true 
+
+Saved sigmaI=0.0125525119001017 sigmaQ=0.00375762280052252 weightQ/weightI=11.1592477280154
+REFERENCE CLOSURE COMPLETE: C:\Sergi\Investigacion\Códigos\dpd_learning_architectures_sergi\sergi_pniq_dpd\diagnostics\pnnn_root_cause\tpe4a4c804_5b22_4e47_b722_3de03b117090

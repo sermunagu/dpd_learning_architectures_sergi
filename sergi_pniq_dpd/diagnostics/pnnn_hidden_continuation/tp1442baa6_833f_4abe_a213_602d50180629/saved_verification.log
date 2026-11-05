@@ -1,0 +1,30 @@
+    Epoch    Updates    OutputExact    ActiveParameters
+    _____    _______    ___________    ________________
+
+      41      1968         true              310       
+      82      3936         true              310       
+     123      5904         true              310       
+
+    developmentNMSEGainDb: 0.2910
+    developmentQChangePct: -3.5417
+            minimumGainDb: 0.1000
+      maximumQIncreasePct: 10
+                     pass: 1
+
+SAVED MODEL, CHECKPOINTS AND GUARDS PASS.
+CHECKCODE analyzeHiddenContinuation.m
+No messages.
+CHECKCODE diagnoseHiddenGradient.m
+No messages.
+CHECKCODE hiddenLoss.m
+No messages.
+CHECKCODE runHiddenContinuation.m
+No messages.
+CHECKCODE testHiddenUpdates.m
+No messages.
+CHECKCODE trainHiddenNetwork.m
+No messages.
+CHECKCODE verifyHiddenResult.m
+Line 39: Extra comma is unnecessary.
+Line 40: Extra comma is unnecessary.
+Line 41: Extra comma is unnecessary.

@@ -1,0 +1,8 @@
+analyzeMixedLoss.m
+         id: 'NASGU'
+    message: 'Value assigned to variable might be unused.'
+        fix: 0
+       line: 39
+     column: [65 65]
+
+runMixedLoss.m

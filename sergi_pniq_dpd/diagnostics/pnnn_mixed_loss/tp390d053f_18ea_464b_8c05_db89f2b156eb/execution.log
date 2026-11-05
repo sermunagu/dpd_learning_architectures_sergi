@@ -1,0 +1,10 @@
+SYNTHETIC LOSS/GRADIENT CHECKS PASS.
+        lossIdentity: 8.8818e-16
+    gradientIdentity: 1.1102e-16
+    analyticGradient: 1.1102e-16
+    finiteDifference: 2.4568e-10
+      singleGradient: 5.9605e-08
+
+PRECHECKS PASS. Weights 1.41775807004113 0.582241929958871. One real fit starts now.
+FIT SAVED 69.188982500 seconds. Exact masks and RNG; 164 epochs.
+C:\Sergi\Investigacion\Códigos\dpd_learning_architectures_sergi\sergi_pniq_dpd\diagnostics\pnnn_mixed_loss\tp390d053f_18ea_464b_8c05_db89f2b156eb

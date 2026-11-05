@@ -1,0 +1,84 @@
+             P: 310
+        models: {[1×1 struct]  [1×1 struct]  [1×1 struct]}
+        config: [1×1 struct]
+    sourceFile: 'C:\Sergi\Investigacion\Códigos\dpd_learning_architectures_sergi\results\experiment20261023T102742_xy.mat'
+         split: [1×1 struct]
+       metrics: [3×14 table]
+    provenance: [1×1 struct]
+            fs: 491520000
+
+            Qpmax: 50
+            Qnmax: 50
+             Pmax: 13
+    maxPopulation: 100
+        blockSize: 8192
+      dompOptions: [1×1 struct]
+
+                          M: 13
+                     orders: [1 3 5 7]
+                   featMode: 'full'
+                   removeDC: 1
+    sparseBaseHiddenNeurons: 12
+                     nnSeed: 42
+
+                        optimizer: "adam"
+                    miniBatchSize: 1024
+                 initialLearnRate: 2.0000e-04
+                learnRateSchedule: "piecewise"
+              learnRateDropFactor: 0.9500
+                          shuffle: "every-epoch"
+             executionEnvironment: "cpu"
+                          verbose: 0
+                 inputDataFormats: "BC"
+                targetDataFormats: "BC"
+          historicalTrainFraction: 0.7000
+              historicalMaxEpochs: 150
+    historicalLearnRateDropPeriod: 5
+     historicalValidationPatience: 50
+
+    historicalFineTuneEpochs: 20
+    fineTuneInitialLearnRate: 2.0000e-04
+          fineTuneSeedOffset: 100000
+
+          denseFit: [1×1 struct]
+    bestDenseEpoch: 1223
+    fineTuneEpochs: 164
+     runtimeConfig: [1×1 struct]
+
+    training: [1×1 struct]
+     pruning: [1×1 struct]
+
+          network: [1×1 dlnetwork]
+    normalization: [1×1 struct]
+
+  4×1 Layer array with layers:
+
+     1   'input'      Feature Input     84 features
+     2   'fc1'        Fully Connected   Fully connected layer with output size 12
+     3   'sigmoid1'   Sigmoid           sigmoid
+     4   'fcOut'      Fully Connected   Fully connected layer with output size 2
+               kind: "pniq"
+      regPopulation: [129×1 struct]
+            support: [155×1 double]
+         featureMap: [155×2 table]
+        descriptors: [129×1 struct]
+    selectedColumns: [155×1 double]
+      coefficientsI: [155×1 double]
+      coefficientsQ: [155×1 double]
+        comparisonI: [155×1 double]
+        comparisonQ: [155×1 double]
+         outputPeak: 0.1327
+          gmpConfig: [1×1 struct]
+
+                                     family: "canonical GMP carrier-envelope term"
+                               canonicalGMP: 1
+                              auxiliaryType: "none"
+                                 carrierLag: 0
+                               envelopeLags: [1×0 double]
+                             envelopePowers: [1×0 double]
+    structurallyRealAfterPhaseNormalization: 1
+                    QColumnStructurallyZero: 1
+                                 iSignature: "IQ:I:c+0:e1"
+                                 qSignature: "IQ:Q:c+0:e1"
+
+Model source and descriptor inspection complete: C:\Sergi\Investigacion\Códigos\dpd_learning_architectures_sergi\sergi_pniq_dpd\diagnostics\pnnn_pniq_gap_audit\tp22743bea_bfe0_448b_bf54_ec7980ccb1c6

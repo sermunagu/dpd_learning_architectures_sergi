@@ -1,0 +1,22 @@
+[
+  {
+    "Epoch": 41,
+    "OutputWeightsBitsExact": true,
+    "OutputBiasBitsExact": true
+  },
+  {
+    "Epoch": 82,
+    "OutputWeightsBitsExact": true,
+    "OutputBiasBitsExact": true
+  },
+  {
+    "Epoch": 123,
+    "OutputWeightsBitsExact": true,
+    "OutputBiasBitsExact": true
+  },
+  {
+    "Epoch": 164,
+    "OutputWeightsBitsExact": true,
+    "OutputBiasBitsExact": true
+  }
+]

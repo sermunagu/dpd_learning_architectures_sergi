@@ -1,0 +1,67 @@
+OUTPUT C:\Sergi\Investigacion\Códigos\dpd_learning_architectures_sergi\sergi_pniq_dpd\diagnostics\pnnn_root_cause\tp0f242878_e7a5_4587_93ac_7eda9246e580
+MATLAB 26.1.0.3203278 (R2026a)
+                                                                     Folder                                                                                                                        Source                                                       Samples                                                                                                   Grid                                                                                              
+    _________________________________________________________________________________________________________________________________________    __________________________________________________________________________________________________________    __________    _______________________________________________________________________________________________________________________________________________________________________________________________
+
+    "C:\Sergi\Investigacion\Códigos\dpd_learning_architectures_sergi\sergi_pniq_dpd\results\dpd_sweep\tp10cf25e9_6429_492f_a1f9_18eb4eb5f157"    "measurements/experiment20260429T134032_xy.mat"                                                               4.9152e+05    "[20 100 200 340]"                                                                                                                                                                             
+    "C:\Sergi\Investigacion\Códigos\dpd_learning_architectures_sergi\sergi_pniq_dpd\results\dpd_sweep\tp98e6f7ac_f3cd_44c7_9ce3_fd8619319748"    "measurements/experiment20260429T134032_xy.mat"                                                               4.9152e+05    "[20 30 40 50 60 70 80 90 100 110 120 130 140 150 160 170 180 190 200 210 220 230 240 250 260 270 280 290 300 310 320 330 340 350 360 370 380 390 400 410 420 430 440 450 460 470 480 490 500]"
+    "C:\Sergi\Investigacion\Códigos\dpd_learning_architectures_sergi\sergi_pniq_dpd\results\dpd_sweep\tpf1484cb1_eb1d_4fe1_9d7e_13899ee8f7e5"    "C:\Sergi\Investigacion\Códigos\dpd_learning_architectures_sergi\results\experiment20261023T102742_xy.mat"    4.9152e+05    "[20 30 40 50 60 70 80 90 100 110 120 130 140 150 160 170 180 190 200 210 220 230 240 250 260 270 280 290 300 310 320 330 340 350 360 370 380 390 400 410 420 430 440 450 460 470 480 490 500]"
+    "C:\Sergi\Investigacion\Códigos\dpd_learning_architectures_sergi\sergi_pniq_dpd\results\dpd_sweep\tpf25d5828_f737_4914_9d00_ffdcb309de89"    "C:\Sergi\Investigacion\Códigos\dpd_learning_architectures_sergi\results\experiment20261023T102742_xy.mat"    4.9152e+05    "[20 30 40 50 60 70 80 90 100 110 120 130 140 150 160 170 180 190 200 210 220 230 240 250 260 270 280 290 300 310 320 330 340 350 360 370 380 390 400 410 420 430 440 450 460 470 480 490 500]"
+
+       Model        FullNMSE    IdentificationNMSE    EvaluationNMSE       MSE    
+    ____________    ________    __________________    ______________    __________
+
+    "GMP-DOMP"      -38.415          -38.552             -38.401        8.4956e-08
+    "PN-IQ-GMP"     -38.875           -39.06             -38.855        7.6417e-08
+    "PNNN P310"     -35.129          -35.112             -35.131        1.8107e-07
+    "PNNN dense"    -35.572          -35.544             -35.576        1.6349e-07
+
+Manual double formula dense prediction relative L2 9.68301006048e-08
+Manual double formula P310 prediction relative L2 8.46433810234e-08
+sigmaY = 0.0125525119001 0.00375762280052; Q/I loss weight ratio = 11.159247728
+Epochs dense=1223 sparse=164; features type=double weights type=single; rank numerical=83
+    Index          Description          ImitationNMSE    RecordedRFNMSE
+    _____    _______________________    _____________    ______________
+
+      1      "ILC iter 1 RMS -22"          -13.111          -16.299    
+      2      "ILC iter 15 RMS -22"         -3101.1          -50.349    
+      3      "Complex_GMP_DOMP_P310"       -38.413          -39.552    
+      4      "PN_IQ_GMP_P310"              -38.873          -40.166    
+      5      "PNNN_P310"                   -35.126          -36.494    
+
+EXISTING PHASE EXPERIMENT C:\Sergi\Investigacion\Códigos\dpd_learning_architectures_sergi\sergi_pniq_dpd\results\pnnn_phase_experiment\tp177f330e_d021_4ef1_9ffa_b5ffab3797e7
+     Model      TargetRealParameters    ActualRealParameters    SelectedLambda    InternalValidationNMSEdB    IdentificationNMSEdB    FullSignalNMSEdB    FLOPsPerSample    ActiveWeights    ActiveBiases    WeightSparsityPercent    FineTuneEpochs    MaxAbsRealParameter    EvaluationNMSEdB                  Variant               
+    ________    ____________________    ____________________    ______________    ________________________    ____________________    ________________    ______________    _____________    ____________    _____________________    ______________    ___________________    ________________    ____________________________________
+
+    {'PNNN'}             20                      20                  NaN                    NaN                      -7.42                -6.7578              200                6               14                99.419                  2                 0.63773              -6.6789         {'Historical baseline'             }
+    {'PNNN'}             20                      20                  NaN                    NaN                      -7.42                -6.7578              200                6               14                99.419                  2                 0.63773              -6.6789         {'Structural zero (fresh training)'}
+
+EXISTING PHASE EXPERIMENT C:\Sergi\Investigacion\Códigos\dpd_learning_architectures_sergi\sergi_pniq_dpd\results\pnnn_phase_experiment\tp1bfa4378_d472_497b_87d7_b5c638c34392
+     Model      TargetRealParameters    ActualRealParameters    SelectedLambda    InternalValidationNMSEdB    IdentificationNMSEdB    FullSignalNMSEdB    FLOPsPerSample    ActiveWeights    ActiveBiases    WeightSparsityPercent    FineTuneEpochs    MaxAbsRealParameter    EvaluationNMSEdB                  Variant               
+    ________    ____________________    ____________________    ______________    ________________________    ____________________    ________________    ______________    _____________    ____________    _____________________    ______________    ___________________    ________________    ____________________________________
+
+    {'PNNN'}            310                     310                  NaN                    NaN                     -35.503               -35.484              780               296              14                71.318                 164                1.9911               -35.482         {'Historical baseline'             }
+    {'PNNN'}            310                     310                  NaN                    NaN                     -35.543               -35.527              780               296              14                71.318                 163                1.9738               -35.525         {'Structural zero (fresh training)'}
+
+EXISTING PHASE EXPERIMENT C:\Sergi\Investigacion\Códigos\dpd_learning_architectures_sergi\sergi_pniq_dpd\results\pnnn_phase_experiment\tpaf65bbaa_eb44_459f_90f1_d193e6d8e62a
+     Model      TargetRealParameters    ActualRealParameters    SelectedLambda    InternalValidationNMSEdB    IdentificationNMSEdB    FullSignalNMSEdB    FLOPsPerSample    ActiveWeights    ActiveBiases    WeightSparsityPercent    FineTuneEpochs    MaxAbsRealParameter    EvaluationNMSEdB                  Variant               
+    ________    ____________________    ____________________    ______________    ________________________    ____________________    ________________    ______________    _____________    ____________    _____________________    ______________    ___________________    ________________    ____________________________________
+
+    {'PNNN'}             20                      20                  NaN                    NaN                      -7.42                -6.7578              200                6               14                99.419                  2                 0.63773              -6.6789         {'Historical baseline'             }
+    {'PNNN'}             20                      20                  NaN                    NaN                      -7.42                -6.7578              200                6               14                99.419                  2                 0.63773              -6.6789         {'Structural zero (fresh training)'}
+
+EXISTING PHASE EXPERIMENT C:\Sergi\Investigacion\Códigos\dpd_learning_architectures_sergi\sergi_pniq_dpd\results\pnnn_phase_experiment\tpf119bda3_f21b_4eb5_ac98_d485147f4eb8
+     Model      TargetRealParameters    ActualRealParameters    SelectedLambda    InternalValidationNMSEdB    IdentificationNMSEdB    FullSignalNMSEdB    FLOPsPerSample    ActiveWeights    ActiveBiases    WeightSparsityPercent    FineTuneEpochs    MaxAbsRealParameter    EvaluationNMSEdB                  Variant               
+    ________    ____________________    ____________________    ______________    ________________________    ____________________    ________________    ______________    _____________    ____________    _____________________    ______________    ___________________    ________________    ____________________________________
+
+    {'PNNN'}             20                      20                  NaN                    NaN                      -7.42                -6.7578              200                6               14                99.419                  2                 0.63773              -6.6789         {'Historical baseline'             }
+    {'PNNN'}             20                      20                  NaN                    NaN                      -7.42                -6.7578              200                6               14                99.419                  2                 0.63773              -6.6789         {'Structural zero (fresh training)'}
+
+EXISTING PHASE EXPERIMENT C:\Sergi\Investigacion\Códigos\dpd_learning_architectures_sergi\sergi_pniq_dpd\results\pnnn_phase_experiment\tpfbfb7068_d47e_49ce_80a9_677275c15d9e
+     Model      TargetRealParameters    ActualRealParameters    SelectedLambda    InternalValidationNMSEdB    IdentificationNMSEdB    FullSignalNMSEdB    FLOPsPerSample    ActiveWeights    ActiveBiases    WeightSparsityPercent    FineTuneEpochs    MaxAbsRealParameter    EvaluationNMSEdB                  Variant               
+    ________    ____________________    ____________________    ______________    ________________________    ____________________    ________________    ______________    _____________    ____________    _____________________    ______________    ___________________    ________________    ____________________________________
+
+    {'PNNN'}             20                      20                  NaN                    NaN                      -7.42                -6.7578              200                6               14                99.419                  2                 0.63773              -6.6789         {'Historical baseline'             }
+    {'PNNN'}             20                      20                  NaN                    NaN                      -7.42                -6.7578              200                6               14                99.419                  2                 0.63773              -6.6789         {'Structural zero (fresh training)'}
+
+READ-ONLY DIAGNOSTIC COMPLETE
